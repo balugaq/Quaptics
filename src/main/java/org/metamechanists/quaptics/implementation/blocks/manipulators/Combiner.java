@@ -56,27 +56,27 @@ public class Combiner extends ConnectedBlock implements PowerAnimatedBlock, Powe
     public static final SlimefunItemStack COMBINER_1 = new SlimefunItemStack(
             "QP_COMBINER_1",
             Material.GRAY_STAINED_GLASS,
-            "&9Combiner &8I",
+            "&9汇聚装置 &8I",
             Lore.create(COMBINER_1_SETTINGS,
-                    "&7● Combines multiple quaptic rays into one"));
+                    "&7● 将多束量子射线汇聚成一束"));
     public static final SlimefunItemStack COMBINER_2 = new SlimefunItemStack(
             "QP_COMBINER_2",
             Material.GRAY_STAINED_GLASS,
-            "&9Combiner &8II",
+            "&9汇聚装置 &8II",
             Lore.create(COMBINER_2_SETTINGS,
-                    "&7● Combines multiple quaptic rays into one"));
+                    "&7● 将多束量子射线汇聚成一束"));
     public static final SlimefunItemStack COMBINER_3 = new SlimefunItemStack(
             "QP_COMBINER_3",
             Material.GRAY_STAINED_GLASS,
-            "&9Combiner &8III",
+            "&9汇聚装置 &8III",
             Lore.create(COMBINER_3_SETTINGS,
-                    "&7● Combines multiple quaptic rays into one"));
+                    "&7● 将多束量子射线汇聚成一束"));
     public static final SlimefunItemStack COMBINER_4 = new SlimefunItemStack(
             "QP_COMBINER_4",
             Material.GRAY_STAINED_GLASS,
-            "&9Combiner &8IV",
+            "&9汇聚装置 &8IV",
             Lore.create(COMBINER_4_SETTINGS,
-                    "&7● Combines multiple quaptic rays into one"));
+                    "&7● 将多束量子射线汇聚成一束"));
 
     private static final double CONNECTION_ANGLE = Math.PI * 2/3;
 

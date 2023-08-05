@@ -16,53 +16,53 @@ import org.metamechanists.quaptics.utils.Colors;
 @UtilityClass
 public class Guide {
     private final SlimefunItemStack WHAT_IS_QUAPTICS = new SlimefunItemStack("QP_GUIDE_WHAT_IS_QUAPTICS", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "What Is Quaptics?",
+            Colors.QUAPTICS.getFormattedColor() + "什么是量子光学（Quaptics）？",
             Lore.clickToOpen());
     private final SlimefunItemStack WHAT_IS_QUAPTICS_1 = new SlimefunItemStack("QP_GUIDE_WHAT_IS_QUAPTICS_1", Material.CYAN_CONCRETE,
-            "&7Quaptics is all about creating, manipulating,",
-            "&7and using quaptic rays, mysterious beams",
-            "&7of power that can be used to power quaptic",
-            "&7machines.");
+            "&7你说的对，但是量子光学（Quaptics）是一款全新的Slimefun附属...",
+            "&7量子光学允许你操控量子光束、射线",
+            "&7并激活各种量子机器。");
     private final SlimefunItemStack WHAT_IS_QUAPTICS_2 = new SlimefunItemStack("QP_GUIDE_WHAT_IS_QUAPTICS_2", Material.CYAN_CONCRETE,
-            "&7Quaptic Rays have properties such as power,",
-            "&7frequency, and phase. Quaptic machines may",
-            "&7require rays with some specific properties.");
+            "&7量子光束",
+            "&7量子光束拥有能量、频率以及相位属性。",
+            "&7部分量子机器需要量子光束",
+            "&7达到一定的条件才能运行。");
     private final SlimefunItemStack WHAT_IS_QUAPTICS_3 = new SlimefunItemStack("QP_GUIDE_WHAT_IS_QUAPTICS_3", Material.CYAN_CONCRETE,
-            "See the next guide entry 'Getting Started' to",
-            "&7begin your journey into Quaptics.");
+            "&7开始游玩",
+            "&7从'入门'开始体验量子光学吧。");
 
     private final SlimefunItemStack GETTING_STARTED = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Getting Started",
+            Colors.QUAPTICS.getFormattedColor() + "入门",
             Lore.clickToOpen());
     private final SlimefunItemStack GETTING_STARTED_1 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_1", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 1",
-            "&7Craft the following:",
-            "&7- &eSolar Concentrator I",
-            "&7- &eLens I",
+            Colors.QUAPTICS.getFormattedColor() + "第一步",
+            "&7制作以下物品：",
+            "&7- &e太阳能聚能装置 I",
+            "&7- &e棱镜 I",
             "&7- &eTargeting Wand");
     private final SlimefunItemStack GETTING_STARTED_2 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_2", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 2",
-            "&7Place down the &eSolar Concentrator I &7and",
-            "&7the &eLens I &7close to each other.");
+            Colors.QUAPTICS.getFormattedColor() + "第二步",
+            "&7相邻放置&e太阳能聚能装置 I",
+            "&7与 &e棱镜 I &7。");
     private final SlimefunItemStack GETTING_STARTED_3 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_3", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 3",
-            "&7Hold the &eTargeting Wand &7and right click",
+            Colors.QUAPTICS.getFormattedColor() + "第三步",
+            "&7手持&eTargeting Wand &7and right click",
             "&7the &aoutput &7on the &eSolar Concentrator I&7.");
     private final SlimefunItemStack GETTING_STARTED_4 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_4", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 4",
+            Colors.QUAPTICS.getFormattedColor() + "第四步",
             "&7You've now selected an &aoutput. &7Next, right",
             "&7click the &cinput &7on the &eLens I&7. You might",
             "&7need to select the &aoutput &7again if you've",
             "&7deselected it.");
     private final SlimefunItemStack GETTING_STARTED_5 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_5", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 5",
+            Colors.QUAPTICS.getFormattedColor() + "第五步",
             "&7You've now created your first Quaptic link!",
             "&7You might have to wait until daytime to see",
             "&7the link, since the &eSolar Concentrator I",
             "&7only works during the day.");
 
     private final SlimefunItemStack VIEWING_CONNECTION_INFORMATION = new SlimefunItemStack("QP_GUIDE_VIEWING_CONNECTION_INFORMATION", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Viewing Connection Information",
+            Colors.QUAPTICS.getFormattedColor() + "查询连接信息",
             Lore.clickToOpen());
     private final SlimefunItemStack VIEWING_CONNECTION_INFORMATION_1 = new SlimefunItemStack("QP_GUIDE_VIEWING_CONNECTION_INFORMATION_1", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "Step 1",

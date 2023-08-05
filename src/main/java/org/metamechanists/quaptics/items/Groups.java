@@ -40,30 +40,30 @@ public class Groups {
             new CustomItemStack(Material.LIGHT_BLUE_STAINED_GLASS, Colors.QUAPTICS.getFormattedColor() + "Quaptics"));
 
     public final ItemGroup GUIDE = new DummyItemGroup(Keys.GUIDE,
-            new CustomItemStack(Material.MAP, "&aGuide"));
+            new CustomItemStack(Material.MAP, "&a教程"));
 
     public final ItemGroup CRAFTING_COMPONENTS = new DummyItemGroup(Keys.TOOLS,
-            new CustomItemStack(Material.CLOCK, "&3Crafting Components"));
+            new CustomItemStack(Material.CLOCK, "&3合成组件"));
 
     public final ItemGroup TOOLS = new DummyItemGroup(Keys.TOOLS,
-            new CustomItemStack(Material.DIAMOND_HORSE_ARMOR, "&9Tools"));
+            new CustomItemStack(Material.DIAMOND_HORSE_ARMOR, "&9工具"));
 
     public final ItemGroup BEAM_CREATION = new DummyItemGroup(Keys.BEAM_CREATION,
-            new CustomItemStack(Material.GLASS_PANE, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "Beam Creation"));
+            new CustomItemStack(Material.GLASS_PANE, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "创建射线"));
     public final ItemGroup BEAM_MANIPULATION = new DummyItemGroup(Keys.BEAM_MANIPULATION,
-            new CustomItemStack(Material.WHITE_STAINED_GLASS, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "Beam Manipulation"));
+            new CustomItemStack(Material.WHITE_STAINED_GLASS, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "操纵射线"));
     public final ItemGroup FREQUENCY_AND_PHASE = new DummyItemGroup(Keys.FREQUENCY_AND_PHASE,
-            new CustomItemStack(Material.RED_STAINED_GLASS, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "Frequency & Phase"));
+            new CustomItemStack(Material.RED_STAINED_GLASS, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "频率与相位"));
     public final ItemGroup MACHINES = new DummyItemGroup(Keys.MACHINES,
-            new CustomItemStack(Material.DISPENSER, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "Machines"));
+            new CustomItemStack(Material.DISPENSER, Colors.QUAPTIC_COMPONENTS.getFormattedColor() + "机器"));
 
     public final ItemGroup BEACON_COMPONENTS = new DummyItemGroup(Keys.BEACON_COMPONENTS,
-            new CustomItemStack(Material.DEEPSLATE_BRICK_WALL, Colors.BEACONS.getFormattedColor() + "Beacon Components"));
+            new CustomItemStack(Material.DEEPSLATE_BRICK_WALL, Colors.BEACONS.getFormattedColor() + "信标组件"));
     public final ItemGroup BEACON_MODULES = new DummyItemGroup(Keys.BEACON_MODULES,
-            new CustomItemStack(BeaconController.emptyItemStack(), Colors.BEACONS.getFormattedColor() + "Beacon Modules"));
+            new CustomItemStack(BeaconController.emptyItemStack(), Colors.BEACONS.getFormattedColor() + "信标模组"));
 
     public final ItemGroup TESTING = new DummyItemGroup(Keys.TESTING,
-            new CustomItemStack(Material.GRAY_CONCRETE, "&8Testing"));
+            new CustomItemStack(Material.GRAY_CONCRETE, "&8测试"));
 
     public void initialize() {
         final SlimefunAddon addon = Quaptics.getInstance();

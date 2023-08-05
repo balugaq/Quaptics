@@ -30,7 +30,7 @@ public class QuapticsCommand extends BaseCommand {
     }
 
     @Subcommand("charge")
-    @Syntax("<amount> - &7Charges the item held in your hand")
+    @Syntax("<amount> - &7充能手中的物品")
     @CommandPermission("quaptics.command.charge")
     public static void charge(final Player player, final String @NotNull [] args) {
         if (args.length < 1) {

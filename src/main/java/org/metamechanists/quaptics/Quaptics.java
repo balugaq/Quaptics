@@ -57,7 +57,7 @@ public final class Quaptics extends JavaPlugin implements SlimefunAddon {
 
         if (!getServer().getPluginManager().isPluginEnabled("GuizhanLibPlugin")) {
             getLogger().log(Level.SEVERE, "本插件需要 鬼斩前置库插件(GuizhanLibPlugin) 才能运行!");
-            getLogger().log(Level.SEVERE, "从此处下载: https://50l.cc/gzlib");
+            getLogger().log(Level.SEVERE, "从此处下载: https://50L.cc/gzlib");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
