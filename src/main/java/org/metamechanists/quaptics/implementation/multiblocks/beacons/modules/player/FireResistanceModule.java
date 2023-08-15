@@ -42,12 +42,12 @@ public class FireResistanceModule extends BeaconModule implements PlayerModule {
     public static final SlimefunItemStack FIRE_RESISTANCE_MODULE_1 = getBanner(new SlimefunItemStack(
             "QP_FIRE_RESISTANCE_MODULE_1",
             Material.YELLOW_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Fire Resistance Module &dI",
+            Colors.BEACONS.getFormattedColor() + "防火模组 &dI",
             Lore.create(FIRE_RESISTANCE_MODULE_1_SETTINGS)));
     public static final SlimefunItemStack FIRE_RESISTANCE_MODULE_2 = getBanner(new SlimefunItemStack(
             "QP_FIRE_RESISTANCE_MODULE_2",
             Material.ORANGE_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Fire Resistance Module &dII",
+            Colors.BEACONS.getFormattedColor() + "防火模组 &dII",
             Lore.create(FIRE_RESISTANCE_MODULE_2_SETTINGS)));
 
     public FireResistanceModule(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {

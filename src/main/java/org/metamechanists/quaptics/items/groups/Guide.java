@@ -102,68 +102,68 @@ public class Guide {
             Colors.QUAPTICS.getFormattedColor() + "第五步",
             "&7现在，去探索更多的组件吧！",
             "&7你也许想看看这些:",
-            "&7- &eSplitter I",
-            "&7- &eCombiner I",
-            "&7- &eCapacitor I",
-            "&7- &eTurret I");
+            "&7- &e分离装置 I",
+            "&7- &e汇聚装置 I",
+            "&7- &e电容 I",
+            "&7- &e炮塔 I");
 
     private final SlimefunItemStack BURNOUT = new SlimefunItemStack("QP_GUIDE_BURNOUT", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "组件 Burnout（以及如何预防）",
+            Colors.QUAPTICS.getFormattedColor() + "组件熄火（以及如何预防）",
             Lore.clickToOpen());
     private final SlimefunItemStack BURNOUT_1 = new SlimefunItemStack("QP_GUIDE_BURNOUT_1", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 1",
-            "&7Once you get into the " + Colors.BASIC.getFormattedColor() + "Basic &7tier, you might",
-            "&7start encountering component burnout.");
+            Colors.QUAPTICS.getFormattedColor() + "第一步",
+            "&7当你开始使用" + Colors.BASIC.getFormattedColor() + "初级&7组件时，",
+            "&7你会开始遇到组件熄火的问题。");
     private final SlimefunItemStack BURNOUT_2 = new SlimefunItemStack("QP_GUIDE_BURNOUT_2", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 2",
-            "&7This occurs when you put too high a power",
-            "&7through a component, and it explodes.");
+            Colors.QUAPTICS.getFormattedColor() + "第二步",
+            "&7这通常在输入了过多的能量时出现，",
+            "&7然后组件便会爆炸。");
     private final SlimefunItemStack BURNOUT_3 = new SlimefunItemStack("QP_GUIDE_BURNOUT_3", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 3",
-            "&7Avoid burnout by using the connection",
-            "&7panels to check you're not about to put",
-            "&7too much power through a component.");
+            Colors.QUAPTICS.getFormattedColor() + "第三步",
+            "&7时常检查信息面板",
+            "&7来避免能量输入超过",
+            "&7组件的正常工作范围。");
     private final SlimefunItemStack BURNOUT_4 = new SlimefunItemStack("QP_GUIDE_BURNOUT_4", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 4",
-            "&7You can also use Transformers to decrease",
-            "&7the power of a ray to safe limits.");
+            Colors.QUAPTICS.getFormattedColor() + "第四步",
+            "&7你也可以使用变压器来减少",
+            "&7光束的能量之安全范围。");
 
     private final SlimefunItemStack INCREASING_FREQUENCY = new SlimefunItemStack("QP_GUIDE_INCREASING_FREQUENCY", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Increasing Frequency",
+            Colors.QUAPTICS.getFormattedColor() + "增加频率",
             Lore.clickToOpen());
     private final SlimefunItemStack INCREASING_FREQUENCY_1 = new SlimefunItemStack("QP_GUIDE_INCREASING_FREQUENCY_1", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 1",
-            "&7More powerful machines require Quaptic rays",
-            "&7to be above a certain frequency. Let's increase",
-            "&7the frequency of a ray using repeaters.");
+            Colors.QUAPTICS.getFormattedColor() + "第一步",
+            "&7更加强力的机器需要",
+            "&7更高频率的量子光束。",
+            "&7需要使用中继器来增加频率。");
     private final SlimefunItemStack INCREASING_FREQUENCY_2 = new SlimefunItemStack("QP_GUIDE_INCREASING_FREQUENCY_2", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 2",
-            "&7Craft the following:",
-            "&7- &eEnergy Concentrator I",
-            "&7- &eRepeater I &7(x3)");
+            Colors.QUAPTICS.getFormattedColor() + "第二步",
+            "&7制作以下物品：",
+            "&7- &e能量汇聚装置 I",
+            "&7- &e中继器 I &7(x3)");
     private final SlimefunItemStack INCREASING_FREQUENCY_3 = new SlimefunItemStack("QP_GUIDE_INCREASING_FREQUENCY_3", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 3",
-            "&7Place the components down and link the",
-            "&eEnergy Concentrator I &7to a repeater, and",
-            "&7chain the repeaters together");
+            Colors.QUAPTICS.getFormattedColor() + "第三步",
+            "&7放置组件，并将",
+            "&e能量汇聚装置 I &7连接到中继器",
+            "&7然后将中继器串联到一起");
     private final SlimefunItemStack INCREASING_FREQUENCY_4 = new SlimefunItemStack("QP_GUIDE_INCREASING_FREQUENCY_4", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 4",
-            "&7The output of the last repeater in the chain",
-            "&7should be enough to power a &eMultiblock",
-            "&eClicker I&7. Try it!");
+            Colors.QUAPTICS.getFormattedColor() + "第四步",
+            "&7串联的最后一个中继器的输出",
+            "&7应该足够让&e多方块结构点击器 I",
+            "&7运作，快去试试吧！");
     private final SlimefunItemStack INCREASING_FREQUENCY_5 = new SlimefunItemStack("QP_GUIDE_INCREASING_FREQUENCY_5", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 5",
-            "&7You'll need to use higher tier Repeaters, as",
-            "&7well as Scatterers (and later Diffraction Gratings)",
-            "&7to further increase frequency.");
+            Colors.QUAPTICS.getFormattedColor() + "第五步",
+            "&7你可能会需要更高级的中继器、",
+            "&7散射器，或是更加后期的衍射光栅",
+            "&7来增加光束的频率。");
 
     private final SlimefunItemStack BUILDING_MULTIBLOCKS = new SlimefunItemStack("QP_GUIDE_BUILDING_MULTIBLOCKS", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Building Multiblocks",
+            Colors.QUAPTICS.getFormattedColor() + "建造多方块结构",
             Lore.clickToOpen());
     private final SlimefunItemStack BUILDING_MULTIBLOCKS_1 = new SlimefunItemStack("QP_GUIDE_BUILDING_MULTIBLOCKS_1", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 1",
-            "&7The first multiblock you'll need to build",
-            "&7is an Infuser.");
+            Colors.QUAPTICS.getFormattedColor() + "第一步",
+            "&7你需要建造的第一个多方块结构",
+            "&7是注入器。");
     private final SlimefunItemStack BUILDING_MULTIBLOCKS_2 = new SlimefunItemStack("QP_GUIDE_BUILDING_MULTIBLOCKS_2", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "Step 2",
             "&7Craft the following:",

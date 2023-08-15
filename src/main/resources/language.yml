@@ -16,11 +16,11 @@ multiblock-clicker.not-powered: "&c启用多方块结构点击器之前，你必
 multiblock.block-name: "&7方块：&3{1}"
 multiblock.valid: "&a已成功建造多方块结构。"
 
-infuser.cannot-be-infused: "&cThis item cannot be infused."
-infuser.pillars-not-powered: "&cYou must power all pillars of the infuser before infusing an item."
+infuser.cannot-be-infused: "&c该物品无法被注入。"
+infuser.pillars-not-powered: "&c你必须充能所有的注入柱才能进行注入。"
 
-entangler.cannot-be-entangled: "&cThis item cannot be entangled."
-entangler.magnets-not-powered: "&cYou must power all magnets of the entangler before infusing an item."
+entangler.cannot-be-entangled: "&c该物品无法进行量子纠缠"
+entangler.magnets-not-powered: "&c你必须充能所有磁铁才能进行量子纠缠。"
 
 beacon.not-module: "&c你只能放入信标模组。"
 beacon.duplicate-module: "&c该信标已装备该模组。"
@@ -31,7 +31,7 @@ charger.not-chargeable: "&c该物品无法被充能。"
 
 data-stripper.not-slimefun-head: "&c你只能放入粘液科技头颅。"
 
-crystal-refiner.invalid-item: "&cThis item cannot be refined."
+crystal-refiner.invalid-item: "&c该物品无法被精炼。"
 
 polariser.not-phase-crystal: "&c你只能放入相位水晶。"
 

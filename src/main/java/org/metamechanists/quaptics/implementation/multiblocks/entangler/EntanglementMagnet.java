@@ -40,7 +40,7 @@ public class EntanglementMagnet extends ConnectedBlock implements PowerAnimatedB
     public static final SlimefunItemStack ENTANGLEMENT_MAGNET = new SlimefunItemStack(
             "QP_ENTANGLEMENT_MAGNET",
             Material.MAGENTA_CONCRETE,
-            "&6Entanglement Magnet",
+            "&6量子纠缠磁铁",
             Lore.create(ENTANGLEMENT_MAGNET_SETTINGS,
                     Lore.multiblockComponent()));
 

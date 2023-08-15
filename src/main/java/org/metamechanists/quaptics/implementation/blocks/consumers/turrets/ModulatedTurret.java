@@ -65,27 +65,27 @@ public class ModulatedTurret extends Turret {
     public static final SlimefunItemStack TURRET_1_HOSTILE = new SlimefunItemStack(
             "QP_TURRET_1_HOSTILE",
             Material.SMOOTH_STONE_SLAB,
-            "&7Turret &fI &8(targets hostiles)",
+            "&7炮塔 &fI &8（对敌对生物）",
             Lore.create(TURRET_1_HOSTILE_SETTINGS,
-                    "&7● Shoots at nearby entities"));
+                    "&7● 射击附近的实体"));
     public static final SlimefunItemStack TURRET_1_PASSIVE = new SlimefunItemStack(
             "QP_TURRET_1_PASSIVE",
             Material.SMOOTH_STONE_SLAB,
-            "&7Turret &fI &8(targets passives)",
+            "&7炮塔 &fI &8（对被动生物）",
             Lore.create(TURRET_1_PASSIVE_SETTINGS,
-                    "&7● Shoots at nearby entities"));
+                    "&7● 射击附近的实体"));
     public static final SlimefunItemStack TURRET_2_HOSTILE = new SlimefunItemStack(
             "QP_TURRET_2_HOSTILE",
             Material.SMOOTH_STONE_SLAB,
-            "&7Turret &fII &8(targets hostiles)",
+            "&7炮塔 &fII &8（对敌对生物）",
             Lore.create(TURRET_2_HOSTILE_SETTINGS,
-                    "&7● Shoots at nearby entities"));
+                    "&7● 射击附近的实体"));
     public static final SlimefunItemStack TURRET_2_PASSIVE = new SlimefunItemStack(
             "QP_TURRET_2_PASSIVE",
             Material.SMOOTH_STONE_SLAB,
-            "&7Turret &fII &8(targets passives)",
+            "&7炮塔 &fII &8（对被动生物）",
             Lore.create(TURRET_2_PASSIVE_SETTINGS,
-                    "&7● Shoots at nearby entities"));
+                    "&7● 射击附近的实体"));
 
     public ModulatedTurret(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {
         super(itemGroup, item, recipeType, recipe, settings);

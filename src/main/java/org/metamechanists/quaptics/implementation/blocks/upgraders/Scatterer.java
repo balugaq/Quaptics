@@ -65,21 +65,21 @@ public class Scatterer extends ConnectedBlock implements PowerAnimatedBlock, Pow
     public static final SlimefunItemStack SCATTERER_1 = new SlimefunItemStack(
             "QP_SCATTERER_1",
             Material.CYAN_STAINED_GLASS,
-            "&cScatterer &4I",
+            "&c散射器 &4I",
             Lore.create(SCATTERER_1_SETTINGS,
-                    "&7● Increases the frequency of a quaptic ray"));
+                    "&7● 增加量子光束的频率"));
     public static final SlimefunItemStack SCATTERER_2 = new SlimefunItemStack(
             "QP_SCATTERER_2",
             Material.CYAN_STAINED_GLASS,
-            "&cScatterer &4II",
+            "&c散射器 &4II",
             Lore.create(SCATTERER_2_SETTINGS,
-                    "&7● Increases the frequency of a quaptic ray"));
+                    "&7● 增加量子光束的频率"));
     public static final SlimefunItemStack SCATTERER_3 = new SlimefunItemStack(
             "QP_SCATTERER_3",
             Material.CYAN_STAINED_GLASS,
-            "&cScatterer &4III",
+            "&c散射器 &4III",
             Lore.create(SCATTERER_3_SETTINGS,
-                    "&7● Increases the frequency of a quaptic ray"));
+                    "&7● 增加量子光束的频率"));
 
 
     private final Vector inputPointLocation = new Vector(0.0F, 0.0F, -getConnectionRadius());

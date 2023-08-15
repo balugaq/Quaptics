@@ -39,7 +39,7 @@ public class InfusionPillar extends ConnectedBlock implements PowerAnimatedBlock
     public static final SlimefunItemStack INFUSION_PILLAR = new SlimefunItemStack(
             "QP_INFUSION_PILLAR",
             Material.BLUE_CONCRETE,
-            "&6Infusion Pillar",
+            "&6注入柱",
             Lore.create(INFUSION_PILLAR_SETTINGS,
                     Lore.multiblockComponent()));
 

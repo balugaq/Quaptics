@@ -34,7 +34,7 @@ public class ReactorRing extends ConnectedBlock {
     public static final SlimefunItemStack REACTOR_RING = new SlimefunItemStack(
             "QP_REACTOR_RING",
             Material.WHITE_CONCRETE,
-            "&6Reactor Ring",
+            "&6反应堆环",
             Lore.create(REACTOR_RING_SETTINGS,
                     Lore.multiblockComponent()));
 

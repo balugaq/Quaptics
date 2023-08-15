@@ -26,7 +26,7 @@ public class BeaconRod extends QuapticBlock {
     public static final SlimefunItemStack BEACON_ROD = new SlimefunItemStack(
             "QP_BEACON_ROD",
             Material.GRAY_CONCRETE,
-            "&dBeacon Rod",
+            "&d信标杆",
             Lore.create(BEACON_ROD_SETTINGS,
                     Lore.multiblockComponent()));
 

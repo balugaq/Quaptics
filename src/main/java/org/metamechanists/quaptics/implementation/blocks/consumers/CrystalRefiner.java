@@ -50,10 +50,10 @@ public class CrystalRefiner extends ConnectedBlock implements ItemHolderBlock, P
     public static final SlimefunItemStack CRYSTAL_REFINER = new SlimefunItemStack(
             "QP_CRYSTAL_REFINER",
             Material.QUARTZ_BLOCK,
-            "&bCrystal Refiner &3I",
+            "&b水晶精炼装置 &3I",
             Lore.create(CRYSTAL_REFINER_SETTINGS,
-                    "&7● Refines Phase Crystals",
-                    "&7● &eRight Click &7with an item to start refining"));
+                    "&7● 精炼相位水晶",
+                    "&7● &7手持物品&e右键点击&7开始精炼"));
 
     private final Vector inputPointLocation = new Vector(0.0F, 0.0F, -getConnectionRadius());
 

@@ -45,11 +45,11 @@ public class Launchpad extends ConnectedBlock implements ConfigPanelBlock, Power
     public static final SlimefunItemStack LAUNCHPAD = new SlimefunItemStack(
             "QP_LAUNCHPAD",
             Material.LIGHT_GRAY_CONCRETE,
-            "&7Launchpad",
+            "&7发射台",
             Lore.create(LAUNCHPAD_SETTINGS,
-                    "&7● Launches players",
-                    "&7● Launch velocity can be configured",
-                    "&7● &eWalk onto the launchpad &7to get launched"));
+                    "&7● 发射玩家",
+                    "&7● 可配置速度",
+                    "&7● &e走到发射台上&7即可被发射"));
 
     private static final Vector INITIAL_VELOCITY = new Vector(0, 0, 0);
     private static final float VELOCITY_POWER = 1.50F;

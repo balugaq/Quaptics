@@ -36,7 +36,7 @@ public class HungerRefillModule extends BeaconModule implements PlayerModule {
     public static final SlimefunItemStack HUNGER_REFILL_MODULE = getBanner(new SlimefunItemStack(
             "QP_HUNGER_REFILL_MODULE",
             Material.YELLOW_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Hunger Refill Module",
+            Colors.BEACONS.getFormattedColor() + "饱和模组",
             Lore.create(HUNGER_REFILL_MODULE_SETTINGS)));
 
     public HungerRefillModule(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {

@@ -34,10 +34,10 @@ public class OscillatingConcentrator extends ConnectedBlock {
     public static final SlimefunItemStack OSCILLATING_CONCENTRATOR = new SlimefunItemStack(
             "QP_TESTING_OSCILLATING_CONCENTRATOR",
             Material.BLACK_STAINED_GLASS_PANE,
-            "&8Oscillating Concentrator &FI",
+            "&8振荡集中器 &FI",
             Lore.create(OSCILLATING_CONCENTRATOR_SETTINGS,
-                    "&7● Toggles power on/off every tick",
-                    "&7● Concentrates epic admin hax into a quaptic ray"));
+                    "&7● 每粘液刻切换电源",
+                    "&7● 汇聚神明的力量为量子光束"));
 
     private final Vector outputLocation = new Vector(0.0F, 0.0F, getConnectionRadius());
 

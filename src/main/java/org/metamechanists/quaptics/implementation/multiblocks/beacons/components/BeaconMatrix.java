@@ -27,7 +27,7 @@ public class BeaconMatrix extends QuapticBlock {
     public static final SlimefunItemStack BEACON_MATRIX = new SlimefunItemStack(
             "QP_BEACON_MATRIX",
             Material.LIGHT_BLUE_CONCRETE,
-            "&dBeacon Matrix",
+            "&d信标矩阵",
             Lore.create(BEACON_MATRIX_SETTINGS,
                     Lore.multiblockComponent()));
 

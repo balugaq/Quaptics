@@ -30,13 +30,13 @@ public class BeaconBattery extends QuapticBlock {
     public static final SlimefunItemStack BEACON_BATTERY_1 = new SlimefunItemStack(
             "QP_BEACON_BATTERY_1",
             Material.WHITE_CONCRETE,
-            "&dBeacon Battery &5I",
+            "&d信标电池 &5I",
             Lore.create(BEACON_BATTERY_1_SETTINGS,
                     Lore.multiblockComponent()));
     public static final SlimefunItemStack BEACON_BATTERY_2 = new SlimefunItemStack(
             "QP_BEACON_BATTERY_2",
             Material.WHITE_CONCRETE,
-            "&dBeacon Battery &5II",
+            "&d信标电池 &5II",
             Lore.create(BEACON_BATTERY_2_SETTINGS,
                     Lore.multiblockComponent()));
 
