@@ -39,38 +39,38 @@ public class Guide {
             "&7制作以下物品：",
             "&7- &e太阳能聚能装置 I",
             "&7- &e棱镜 I",
-            "&7- &eTargeting Wand");
+            "&7- &e瞄准权杖");
     private final SlimefunItemStack GETTING_STARTED_2 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_2", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第二步",
             "&7相邻放置&e太阳能聚能装置 I",
-            "&7与 &e棱镜 I &7。");
+            "&7与&e棱镜 I&7。");
     private final SlimefunItemStack GETTING_STARTED_3 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_3", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第三步",
-            "&7手持&eTargeting Wand &7and right click",
-            "&7the &aoutput &7on the &eSolar Concentrator I&7.");
+            "&7手持&e瞄准权杖&7并右键点击",
+            "&e太阳能聚能装置 I&7的&a输出口&7。");
     private final SlimefunItemStack GETTING_STARTED_4 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_4", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第四步",
-            "&7You've now selected an &aoutput. &7Next, right",
-            "&7click the &cinput &7on the &eLens I&7. You might",
-            "&7need to select the &aoutput &7again if you've",
-            "&7deselected it.");
+            "&7你已经选择了一个&a输出口。&7接下来",
+            "&7右键点击&e棱镜 I&7的&c输入口。",
+            "&7如果你不小心取消选择了&a输出口，",
+            "&7你需要重新进行选择。");
     private final SlimefunItemStack GETTING_STARTED_5 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_5", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第五步",
-            "&7You've now created your first Quaptic link!",
-            "&7You might have to wait until daytime to see",
-            "&7the link, since the &eSolar Concentrator I",
-            "&7only works during the day.");
+            "&7现在，你成功创建了第一个量子光学连接！",
+            "&7也许你要在白天才能看到效果，",
+            "&7因为&e太阳能聚能装置 I",
+            "&7只在白天工作。");
 
     private final SlimefunItemStack VIEWING_CONNECTION_INFORMATION = new SlimefunItemStack("QP_GUIDE_VIEWING_CONNECTION_INFORMATION", Material.WHITE_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "查询连接信息",
             Lore.clickToOpen());
     private final SlimefunItemStack VIEWING_CONNECTION_INFORMATION_1 = new SlimefunItemStack("QP_GUIDE_VIEWING_CONNECTION_INFORMATION_1", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 1",
+            Colors.QUAPTICS.getFormattedColor() + "第一步",
             "&7You can view information about &cinputs &7and",
             "&aoutputs &7by right clicking them with an empty",
             "&7hand to bring up an information panel. Try it!");
     private final SlimefunItemStack VIEWING_CONNECTION_INFORMATION_2 = new SlimefunItemStack("QP_GUIDE_VIEWING_CONNECTION_INFORMATION_2", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 2",
+            Colors.QUAPTICS.getFormattedColor() + "第二步",
             "&7You can also shift right click a block to",
             "&7toggle the panels of all its points.");
 
