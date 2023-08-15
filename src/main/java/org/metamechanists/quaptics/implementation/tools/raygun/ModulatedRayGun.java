@@ -37,15 +37,15 @@ public class ModulatedRayGun extends AbstractRayGun {
     public static final SlimefunItemStack RAY_GUN_1 = new SlimefunItemStack(
             "QP_RAY_GUN_1",
             Material.LEATHER_HORSE_ARMOR,
-            "&bRay Gun &3I",
+            "&b射线枪 &3I",
             Lore.buildChargeableLore(RAY_GUN_1_SETTINGS, 0,
-                    "&7● &eRight Click &7to fire"));
+                    "&7● &e右键点击&7开火"));
     public static final SlimefunItemStack RAY_GUN_2 = new SlimefunItemStack(
             "QP_RAY_GUN_2",
             Material.IRON_HORSE_ARMOR,
-            "&bRay Gun &3II",
+            "&b射线枪 &3II",
             Lore.buildChargeableLore(RAY_GUN_2_SETTINGS, 0,
-                    "&7● &eRight Click &7to fire"));
+                    "&7● &e右键点击&7开火"));
 
     public ModulatedRayGun(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {
         super(itemGroup, item, recipeType, recipe, settings);

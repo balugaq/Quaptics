@@ -6,6 +6,10 @@
   <a href="https://discord.gg/nR8axbxvwk" alt="Discord Invite">Join the Quaptics Discord</a>
 </p>
 
+## 翻译笔记
+
+ray - 射线
+beam - 光束
 
 ## What's Quaptics?
 Quaptics is a [Slimefun](https://github.com/Slimefun/Slimefun4) addon intended to provide something intellectually 

@@ -39,21 +39,21 @@ public class Guide {
             "&7制作以下物品：",
             "&7- &e太阳能聚能装置 I",
             "&7- &e棱镜 I",
-            "&7- &e瞄准权杖");
+            "&7- &e校准棒");
     private final SlimefunItemStack GETTING_STARTED_2 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_2", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第二步",
             "&7相邻放置&e太阳能聚能装置 I",
             "&7与&e棱镜 I&7。");
     private final SlimefunItemStack GETTING_STARTED_3 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_3", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第三步",
-            "&7手持&e瞄准权杖&7并右键点击",
+            "&7手持&e校准棒&7并右键点击",
             "&e太阳能聚能装置 I&7的&a输出口&7。");
     private final SlimefunItemStack GETTING_STARTED_4 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_4", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第四步",
             "&7你已经选择了一个&a输出口。&7接下来",
             "&7右键点击&e棱镜 I&7的&c输入口。",
             "&7如果你不小心取消选择了&a输出口，",
-            "&7你需要重新进行选择。");
+            "&7你需要回到第三步。");
     private final SlimefunItemStack GETTING_STARTED_5 = new SlimefunItemStack("QP_GUIDE_GETTING_STARTED_5", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第五步",
             "&7现在，你成功创建了第一个量子光学连接！",
@@ -66,49 +66,49 @@ public class Guide {
             Lore.clickToOpen());
     private final SlimefunItemStack VIEWING_CONNECTION_INFORMATION_1 = new SlimefunItemStack("QP_GUIDE_VIEWING_CONNECTION_INFORMATION_1", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第一步",
-            "&7You can view information about &cinputs &7and",
-            "&aoutputs &7by right clicking them with an empty",
-            "&7hand to bring up an information panel. Try it!");
+            "&7你可以空手右键点击",
+            "&c输入口&7与&a输出口&7来打开信息面板。",
+            "&7快去试试吧！");
     private final SlimefunItemStack VIEWING_CONNECTION_INFORMATION_2 = new SlimefunItemStack("QP_GUIDE_VIEWING_CONNECTION_INFORMATION_2", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "第二步",
-            "&7You can also shift right click a block to",
-            "&7toggle the panels of all its points.");
+            "&7你也可以潜行+右键点击方块",
+            "&7来切换所有接口的信息面板。");
 
     private final SlimefunItemStack USING_A_RAY_GUN = new SlimefunItemStack("QP_GUIDE_USING_A_RAY_GUN", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Using a Ray Gun",
+            Colors.QUAPTICS.getFormattedColor() + "使用射线枪",
             Lore.clickToOpen());
     private final SlimefunItemStack USING_A_RAY_GUN_1 = new SlimefunItemStack("QP_GUIDE_USING_A_RAY_GUN_1", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 1",
-            "&7Craft the following:",
-            "&7- &eRay Gun I",
-            "&7- &eCharger I");
+            Colors.QUAPTICS.getFormattedColor() + "第一步",
+            "&7制作以下物品：",
+            "&7- &e射线枪 I",
+            "&7- &e充能器 I");
     private final SlimefunItemStack USING_A_RAY_GUN_2 = new SlimefunItemStack("QP_GUIDE_USING_A_RAY_GUN_2", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 2",
-            "&7Place down the &eCharger I &7and connect",
-            "&7it to a power source (as explained in",
-            "&7the Getting Started section)");
+            Colors.QUAPTICS.getFormattedColor() + "第二步",
+            "&7放置&e充能器I &7并将其",
+            "&7连接至能量源。",
+            "&7（已在'入门'中介绍）");
     private final SlimefunItemStack USING_A_RAY_GUN_3 = new SlimefunItemStack("QP_GUIDE_USING_A_RAY_GUN_3", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 3",
-            "&7Hold the &eRay Gun I &7and right click the",
-            "&eCharger I&7. The &eRay Gun I &7should start",
-            "&7charging. You might have to wait until daytime for",
-            "&7the &eSolar Concentrator I &7to start working.");
+            Colors.QUAPTICS.getFormattedColor() + "第三步",
+            "&7手持&e射线枪 I &7并右键点击&e充能器 I&7。",
+            "&e射线枪 I &7现在应该开始充能了。",
+            "&7你可能需要等到白天",
+            "&7才能让&e太阳能聚能装置 I &7运作。");
     private final SlimefunItemStack USING_A_RAY_GUN_4 = new SlimefunItemStack("QP_GUIDE_USING_A_RAY_GUN_4", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 4",
-            "&7When the &eRay Gun I &7is charged, right click",
-            "&7to take it from the charger, and then right",
-            "&7click with the &eRay Gun I &7to fire at a target.");
+            Colors.QUAPTICS.getFormattedColor() + "第四步",
+            "&7当&e射线枪 I &7充能完毕后，",
+            "&7右键点击将其从充能器中取出。",
+            "&7手持&e射线枪 I &7并右键点击目标向其开火。");
     private final SlimefunItemStack USING_A_RAY_GUN_5 = new SlimefunItemStack("QP_GUIDE_USING_A_RAY_GUN_5", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 5",
-            "&7Now go explore some of the other components!",
-            "&7You might want to look at:",
+            Colors.QUAPTICS.getFormattedColor() + "第五步",
+            "&7现在，去探索更多的组件吧！",
+            "&7你也许想看看这些:",
             "&7- &eSplitter I",
             "&7- &eCombiner I",
             "&7- &eCapacitor I",
             "&7- &eTurret I");
 
     private final SlimefunItemStack BURNOUT = new SlimefunItemStack("QP_GUIDE_BURNOUT", Material.WHITE_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Component Burnout (and how to avoid it)",
+            Colors.QUAPTICS.getFormattedColor() + "组件 Burnout（以及如何预防）",
             Lore.clickToOpen());
     private final SlimefunItemStack BURNOUT_1 = new SlimefunItemStack("QP_GUIDE_BURNOUT_1", Material.CYAN_CONCRETE,
             Colors.QUAPTICS.getFormattedColor() + "Step 1",

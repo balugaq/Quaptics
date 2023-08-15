@@ -35,9 +35,9 @@ public class Groups {
 
     public final SimpleFlexGroup MAIN = new SimpleFlexGroup(
             Quaptics.getInstance(),
-            Colors.QUAPTICS.getFormattedColor() + "Quaptics",
+            Colors.QUAPTICS.getFormattedColor() + "量子光学",
             Keys.MAIN,
-            new CustomItemStack(Material.LIGHT_BLUE_STAINED_GLASS, Colors.QUAPTICS.getFormattedColor() + "Quaptics"));
+            new CustomItemStack(Material.LIGHT_BLUE_STAINED_GLASS, Colors.QUAPTICS.getFormattedColor() + "量子光学"));
 
     public final ItemGroup GUIDE = new DummyItemGroup(Keys.GUIDE,
             new CustomItemStack(Material.MAP, "&a教程"));
