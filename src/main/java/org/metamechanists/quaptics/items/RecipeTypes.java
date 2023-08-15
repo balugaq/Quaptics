@@ -22,8 +22,8 @@ public class RecipeTypes {
                     Keys.RECIPE_INFUSION_CONTAINER,
                     new CustomItemStack(
                             INFUSION_CONTAINER.clone(),
-                            Colors.QUAPTICS.getFormattedColor() + "Infusion",
-                            "&7Made in the Infuser multiblock")
+                            Colors.QUAPTICS.getFormattedColor() + "注入",
+                            "&7通过注入器多方块结构获得")
             );
         }
     }
@@ -34,8 +34,8 @@ public class RecipeTypes {
                     Keys.RECIPE_ENTANGLER,
                     new CustomItemStack(
                             ENTANGLEMENT_CONTAINER.clone(),
-                            Colors.QUAPTICS.getFormattedColor() + "Entanglement",
-                            "&7Made in the Entangler multiblock")
+                            Colors.QUAPTICS.getFormattedColor() + "量子纠缠",
+                            "&7通过量子纠缠仪多方块结构获得")
             );
         }
     }
@@ -46,8 +46,8 @@ public class RecipeTypes {
                     Keys.RECIPE_CRYSTAL_REFINER,
                     new CustomItemStack(
                             CRYSTAL_REFINER.clone(),
-                            Colors.QUAPTICS.getFormattedColor() + "Crystal Refining",
-                            "&7Made in the Crystal Refiner")
+                            Colors.QUAPTICS.getFormattedColor() + "水晶精炼",
+                            "&7通过水晶精炼装置获得")
             );
         }
     }

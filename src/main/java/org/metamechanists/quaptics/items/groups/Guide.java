@@ -165,21 +165,21 @@ public class Guide {
             "&7你需要建造的第一个多方块结构",
             "&7是注入器。");
     private final SlimefunItemStack BUILDING_MULTIBLOCKS_2 = new SlimefunItemStack("QP_GUIDE_BUILDING_MULTIBLOCKS_2", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 2",
-            "&7Craft the following:",
-            "&7- &eMultiblock Wand",
-            "&7- &eInfusion Container",
-            "&7- &eInfusion Pillar &7(x4)");
+            Colors.QUAPTICS.getFormattedColor() + "第二步",
+            "&7制作以下物品：",
+            "&7- &e多方块棒",
+            "&7- &e注入容器",
+            "&7- &e注入柱 &7(x4)");
     private final SlimefunItemStack BUILDING_MULTIBLOCKS_3 = new SlimefunItemStack("QP_GUIDE_BUILDING_MULTIBLOCKS_3", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 3",
-            "&7Place down the &eInfusion Container &7and",
-            "&7right click it with the &eMultiblock Wand&7.",
-            "&7The multiblock structure will be projected.");
+            Colors.QUAPTICS.getFormattedColor() + "第三步",
+            "&7放置&e注入容器&7并",
+            "&7使用&e多方块棒&7右键点击。",
+            "&7多方块结构会投影展示出。");
     private final SlimefunItemStack BUILDING_MULTIBLOCKS_4 = new SlimefunItemStack("QP_GUIDE_BUILDING_MULTIBLOCKS_4", Material.CYAN_CONCRETE,
-            Colors.QUAPTICS.getFormattedColor() + "Step 4",
-            "&7Right click each projected block to see",
-            "&7which block it is, and place them as shown.",
-            "&7That's it!");
+            Colors.QUAPTICS.getFormattedColor() + "第四步",
+            "&7右键点击每个投影的方块",
+            "&7可以查看是什么，然后放置相应的方块即可。",
+            "&7就是这么简单！");
 
 
     public void initialize() {
