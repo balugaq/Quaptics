@@ -65,27 +65,27 @@ public class EnergyConcentrator extends EnergyConnectedBlock implements PowerAni
     public static final SlimefunItemStack ENERGY_CONCENTRATOR_1 = new SlimefunItemStack(
             "QP_ENERGY_CONCENTRATOR_1",
             Material.GRAY_CONCRETE,
-            "&eEnergy Concentrator &6I",
+            "&e能量汇聚装置 &6I",
             Lore.create(ENERGY_CONCENTRATOR_1_SETTINGS,
-                    "&7● Concentrates energy into a quaptic ray"));
+                    "&7● 将能量汇聚成量子射线"));
     public static final SlimefunItemStack ENERGY_CONCENTRATOR_2 = new SlimefunItemStack(
             "QP_ENERGY_CONCENTRATOR_2",
             Material.GRAY_CONCRETE,
-            "&eEnergy Concentrator &6II",
+            "&e能量汇聚装置 &6II",
             Lore.create(ENERGY_CONCENTRATOR_2_SETTINGS,
-                    "&7● Concentrates energy into a quaptic ray"));
+                    "&7● 将能量汇聚成量子射线"));
     public static final SlimefunItemStack ENERGY_CONCENTRATOR_3 = new SlimefunItemStack(
             "QP_ENERGY_CONCENTRATOR_3",
             Material.GRAY_CONCRETE,
-            "&eEnergy Concentrator &6III",
+            "&e能量汇聚装置 &6III",
             Lore.create(ENERGY_CONCENTRATOR_3_SETTINGS,
-                    "&7● Concentrates energy into a quaptic ray"));
+                    "&7● 将能量汇聚成量子射线"));
     public static final SlimefunItemStack ENERGY_CONCENTRATOR_4 = new SlimefunItemStack(
             "QP_ENERGY_CONCENTRATOR_4",
             Material.GRAY_CONCRETE,
-            "&eEnergy Concentrator &6IV",
+            "&e能量汇聚装置 &6IV",
             Lore.create(ENERGY_CONCENTRATOR_4_SETTINGS,
-                    "&7● Concentrates energy into a quaptic ray"));
+                    "&7● 将能量汇聚成量子射线"));
 
     private final Vector outputLocation = new Vector(0.0F, 0.0F,getConnectionRadius());
 

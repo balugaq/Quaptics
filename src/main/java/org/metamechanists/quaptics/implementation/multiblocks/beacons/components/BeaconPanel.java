@@ -25,7 +25,7 @@ public class BeaconPanel extends QuapticBlock {
     public static final SlimefunItemStack BEACON_PANEL = new SlimefunItemStack(
             "QP_BEACON_PANEL",
             Material.BLACK_STAINED_GLASS_PANE,
-            "&dBeacon Panel",
+            "&d信标面板",
             Lore.create(BEACON_PANEL_SETTINGS,
                     Lore.multiblockComponent()));
 

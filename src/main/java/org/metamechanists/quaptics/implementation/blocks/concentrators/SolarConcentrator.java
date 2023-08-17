@@ -46,15 +46,15 @@ public class SolarConcentrator extends ConnectedBlock implements PowerAnimatedBl
     public static final SlimefunItemStack SOLAR_CONCENTRATOR_1 = new SlimefunItemStack(
             "QP_SOLAR_CONCENTRATOR_1",
             Material.GLASS_PANE,
-            "&eSolar Concentrator &6I",
+            "&e太阳能汇聚装置 &6I",
             Lore.create(SOLAR_CONCENTRATOR_1_SETTINGS,
-                    "&7● Concentrates sunlight into a quaptic ray"));
+                    "&7● 将太阳光汇聚成量子射线"));
     public static final SlimefunItemStack SOLAR_CONCENTRATOR_2 = new SlimefunItemStack(
             "QP_SOLAR_CONCENTRATOR_2",
             Material.GLASS_PANE,
-            "&eSolar Concentrator &6II",
+            "&e太阳能汇聚装置 &6II",
             Lore.create(SOLAR_CONCENTRATOR_2_SETTINGS,
-                    "&7● Concentrates sunlight into a quaptic ray"));
+                    "&7● 将太阳光汇聚成量子射线"));
 
     private final Vector outputLocation = new Vector(0.0F, 0.0F, getConnectionRadius());
 

@@ -42,12 +42,12 @@ public class LuckModule extends BeaconModule implements PlayerModule {
     public static final SlimefunItemStack LUCK_MODULE_1 = getBanner(new SlimefunItemStack(
             "QP_LUCK_MODULE_1",
             Material.YELLOW_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Luck Module &dI",
+            Colors.BEACONS.getFormattedColor() + "幸运模组 &dI",
             Lore.create(LUCK_MODULE_1_SETTINGS)));
     public static final SlimefunItemStack LUCK_MODULE_2 = getBanner(new SlimefunItemStack(
             "QP_LUCK_MODULE_2",
             Material.ORANGE_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Luck Module &dII",
+            Colors.BEACONS.getFormattedColor() + "幸运模组 &dII",
             Lore.create(LUCK_MODULE_2_SETTINGS)));
 
     public LuckModule(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {

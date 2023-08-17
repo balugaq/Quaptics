@@ -31,9 +31,9 @@ public class ItemProjectorConfigPanel extends ConfigPanel {
     @Override
     protected ConfigPanelContainer buildPanelContainer(@NotNull final ConnectionGroupId groupId, @NotNull final Location location, final float rotationY) {
         return new ConfigPanelBuilder(groupId, location.clone().add(getOffset()), SIZE, rotationY)
-                .addAttribute("height", "&fHeight")
-                .addAttribute("size", "&fSize")
-                .addAttribute("mode", "&fMode")
+                .addAttribute("height", "&f高度")
+                .addAttribute("size", "&f尺寸")
+                .addAttribute("mode", "&f模式")
                 .build();
     }
 

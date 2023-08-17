@@ -40,9 +40,9 @@ public class Interferometer extends ConnectedBlock implements PowerAnimatedBlock
     public static final SlimefunItemStack INTERFEROMETER = new SlimefunItemStack(
             "QP_INTERFEROMETER",
             Material.YELLOW_TERRACOTTA,
-            "&cInterferometer",
+            "&c干涉仪",
             Lore.create(INTERFEROMETER_SETTINGS,
-                    "&7● Sets the phase of the main ray to the phase of the auxiliary ray"));
+                    "&7● 设置主要光束的相位至辅助光线的相位"));
 
     private static final Vector MAIN_INPUT_LOCATION = new Vector(0, 0, -0.45);
     private static final Vector AUXILIARY_INPUT_LOCATION = new Vector(0.4, 0, 0);

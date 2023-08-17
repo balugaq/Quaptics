@@ -61,31 +61,31 @@ public class Charger extends ConnectedBlock implements InfoPanelBlock, ItemHolde
     public static final SlimefunItemStack CHARGER_1 = new SlimefunItemStack(
             "QP_CHARGER_1",
             Material.POLISHED_DEEPSLATE_SLAB,
-            "&7Charger &fI",
+            "&7充能器 &fI",
             Lore.create(CHARGER_1_SETTINGS,
-                    "&7● Charges Quaptic items",
-                    "&7● &eRight Click &7with a chargeable item to insert"));
+                    "&7● 充能量子光学物品",
+                    "&7● &7手持可充能物品&e右键点击&7以放入"));
     public static final SlimefunItemStack CHARGER_2 = new SlimefunItemStack(
             "QP_CHARGER_2",
             Material.POLISHED_DEEPSLATE_SLAB,
-            "&7Charger &fII",
+            "&7充能器 &fII",
             Lore.create(CHARGER_2_SETTINGS,
-                    "&7● Charges Quaptic items",
-                    "&7● &eRight Click &7with a chargeable item to insert"));
+                    "&7● 充能量子光学物品",
+                    "&7● &7手持可充能物品&e右键点击&7以放入"));
     public static final SlimefunItemStack CHARGER_3 = new SlimefunItemStack(
             "QP_CHARGER_3",
             Material.POLISHED_DEEPSLATE_SLAB,
-            "&7Charger &fIII",
+            "&7充能器 &fIII",
             Lore.create(CHARGER_3_SETTINGS,
-                    "&7● Charges Quaptic items",
-                    "&7● &eRight Click &7with a chargeable item to insert"));
+                    "&7● 充能量子光学物品",
+                    "&7● &7手持可充能物品&e右键点击&7以放入"));
     public static final SlimefunItemStack CHARGER_4 = new SlimefunItemStack(
             "QP_CHARGER_4",
             Material.POLISHED_DEEPSLATE_SLAB,
-            "&7Charger &fIV",
+            "&7充能器 &fIV",
             Lore.create(CHARGER_4_SETTINGS,
-                    "&7● Charges Quaptic items",
-                    "&7● &eRight Click &7with a chargeable item to insert"));
+                    "&7● 充能量子光学物品",
+                    "&7● &7手持可充能物品&e右键点击&7以放入"));
 
     private final Vector inputPointLocation = new Vector(0.0F, 0.0F, -getConnectionRadius());
 

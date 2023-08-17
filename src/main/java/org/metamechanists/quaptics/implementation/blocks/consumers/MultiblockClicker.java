@@ -62,27 +62,27 @@ public class MultiblockClicker extends ConnectedBlock implements PowerAnimatedBl
     public static final SlimefunItemStack MULTIBLOCK_CLICKER_1 = new SlimefunItemStack(
             "QP_MULTIBLOCK_CLICKER_1",
             Material.DISPENSER,
-            "&7Multiblock Clicker &fI",
+            "&7多方块结构点击装置 &fI",
             Lore.create(MULTIBLOCK_CLICKER_1_SETTINGS,
-                    "&7● Automatically clicks the attached multiblock",
-                    "&7● Place facing the block you'd usually click to use the multiblock",
-                    "&7● &eRight Click &7to enable/disable"));
+                    "&7● 自动点击绑定的多方块结构",
+                    "&7● 对着使用多方块结构所需的方块放置",
+                    "&7● &e右键点击&7开启/关闭"));
     public static final SlimefunItemStack MULTIBLOCK_CLICKER_2 = new SlimefunItemStack(
             "QP_MULTIBLOCK_CLICKER_2",
             Material.DISPENSER,
-            "&7Multiblock Clicker &fII",
+            "&7多方块结构点击装置 &fII",
             Lore.create(MULTIBLOCK_CLICKER_2_SETTINGS,
-                    "&7● Automatically clicks the attached multiblock",
-                    "&7● Place facing the block you'd usually click to use the multiblock",
-                    "&7● &eRight Click &7to enable/disable"));
+                    "&7● 自动点击绑定的多方块结构",
+                    "&7● 对着使用多方块结构所需的方块放置",
+                    "&7● &e右键点击&7开启/关闭"));
     public static final SlimefunItemStack MULTIBLOCK_CLICKER_3 = new SlimefunItemStack(
             "QP_MULTIBLOCK_CLICKER_3",
             Material.DISPENSER,
-            "&7Multiblock Clicker &fIII",
+            "&7多方块结构点击装置 &fIII",
             Lore.create(MULTIBLOCK_CLICKER_3_SETTINGS,
-                    "&7● Automatically clicks the attached multiblock",
-                    "&7● Place facing the block you'd usually click to use the multiblock",
-                    "&7● &eRight Click &7to enable/disable"));
+                    "&7● 自动点击绑定的多方块结构",
+                    "&7● 对着使用多方块结构所需的方块放置",
+                    "&7● &e右键点击&7开启/关闭"));
 
     private final Vector inputPointLocation = new Vector(0.0F, 0.0F, -getConnectionRadius());
 

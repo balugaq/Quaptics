@@ -44,15 +44,15 @@ public class DirectRayGun extends AbstractRayGun {
     public static final SlimefunItemStack RAY_GUN_3 = new SlimefunItemStack(
             "QP_RAY_GUN_3",
             Material.GOLDEN_HORSE_ARMOR,
-            "&bRay Gun &3III",
+            "&b射线枪 &3III",
             Lore.buildChargeableLore(RAY_GUN_3_SETTINGS, 0,
-                    "&7● &eRight Click &7to fire"));
+                    "&7● &e右键点击&7开火"));
     public static final SlimefunItemStack RAY_GUN_4 = new SlimefunItemStack(
             "QP_RAY_GUN_4",
             Material.DIAMOND_HORSE_ARMOR,
-            "&bRay Gun &3IV",
+            "&b射线枪 &3IV",
             Lore.buildChargeableLore(RAY_GUN_4_SETTINGS, 0,
-                    "&7● &eRight Click &7to fire"));
+                    "&7● &e右键点击&7开火"));
 
     public DirectRayGun(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {
         super(itemGroup, item, recipeType, recipe, settings);

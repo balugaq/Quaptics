@@ -5,11 +5,12 @@ import org.jetbrains.annotations.NotNull;
 import org.metamechanists.quaptics.utils.Colors;
 
 public enum Tier {
-    PRIMITIVE(Colors.PRIMITIVE.getFormattedColor() + "Primitive", Material.BROWN_CONCRETE, Material.BROWN_STAINED_GLASS, 10),
-    BASIC(Colors.BASIC.getFormattedColor() + "Basic", Material.GREEN_CONCRETE, Material.GREEN_STAINED_GLASS, 100),
-    INTERMEDIATE(Colors.INTERMEDIATE.getFormattedColor() + "Intermediate", Material.YELLOW_CONCRETE, Material.YELLOW_STAINED_GLASS, 1000),
-    ADVANCED(Colors.ADVANCED.getFormattedColor() + "Advanced", Material.RED_CONCRETE, Material.RED_STAINED_GLASS, 10000),
-    TESTING("&8Testing", Material.RED_CONCRETE, Material.RED_STAINED_GLASS, 10);
+    PRIMITIVE(Colors.PRIMITIVE.getFormattedColor() + "原始级", Material.BROWN_CONCRETE, Material.BROWN_STAINED_GLASS, 10),
+    BASIC(Colors.BASIC.getFormattedColor() + "初级", Material.GREEN_CONCRETE, Material.GREEN_STAINED_GLASS, 100),
+    INTERMEDIATE(Colors.INTERMEDIATE.getFormattedColor() + "中级", Material.YELLOW_CONCRETE,
+        Material.YELLOW_STAINED_GLASS, 1000),
+    ADVANCED(Colors.ADVANCED.getFormattedColor() + "高级", Material.RED_CONCRETE, Material.RED_STAINED_GLASS, 10000),
+    TESTING("&8测试", Material.RED_CONCRETE, Material.RED_STAINED_GLASS, 10);
 
     public final String name;
     public final Material concreteMaterial;

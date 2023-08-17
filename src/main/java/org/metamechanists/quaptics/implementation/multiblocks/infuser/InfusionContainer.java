@@ -50,11 +50,11 @@ public class InfusionContainer extends ConnectedBlock implements ItemHolderBlock
     public static final SlimefunItemStack INFUSION_CONTAINER = new SlimefunItemStack(
             "QP_INFUSION_CONTAINER",
             Material.GRAY_CONCRETE,
-            "&6Infusion Container",
+            "&6注入容器",
             Lore.create(INFUSION_CONTAINER_SETTINGS,
                     Lore.multiblock(),
-                    "&7● Infuses items",
-                    "&7● &eRight Click &7with an item to start infusing"));
+                    "&7● 注入物品",
+                    "&7● 手持物品&e右键点击&7开始注入"));
 
     private static final Vector PILLAR_1_LOCATION = new Vector(2, 0, 0);
     private static final Vector PILLAR_2_LOCATION = new Vector(-2, 0, 0);

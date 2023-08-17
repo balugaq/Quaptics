@@ -21,10 +21,10 @@ public class MultiblockWand extends SlimefunItem {
     public static final SlimefunItemStack MULTIBLOCK_WAND = new SlimefunItemStack(
             "QP_MULTBLOCK_WAND",
             Material.AMETHYST_SHARD,
-            "&bMultiblock Wand",
-            "&7● Shows you how to build complex multiblocks",
-            "&7● &eRight Click &7a multiblock to see how to build it",
-            "&7● &eRight Click &7a projected block to see what block it is");
+            "&b多方块棒",
+            "&7● 向你展示如何建造复杂的多方块结构。",
+            "&7● &e右键点击&7多方块结构以查看如何建造。",
+            "&7● &e右键点击&7投影方块以了解该方块是什么。");
 
     public MultiblockWand(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe);

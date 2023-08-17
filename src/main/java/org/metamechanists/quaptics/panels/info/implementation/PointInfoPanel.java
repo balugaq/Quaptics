@@ -60,8 +60,11 @@ public class PointInfoPanel extends InfoPanel {
         }
 
         final ConnectionPoint point = getPoint().get();
+        String pointName = point.getName().toUpperCase()
+            .replace("INPUT", "输入")
+            .replace("OUTPUT", "输出");
 
-        container.setText("name", (point.getLink().isPresent() ? "&a" : "&c") + point.getName().toUpperCase());
+        container.setText("name", (point.getLink().isPresent() ? "&a" : "&c") + pointName);
 
         if (point.getLink().isEmpty()) {
             container.setAttributeHidden("power", true);

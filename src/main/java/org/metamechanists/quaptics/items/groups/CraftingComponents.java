@@ -23,89 +23,89 @@ import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.*;
 @UtilityClass
 public class CraftingComponents {
     public final SlimefunItemStack TRANSMITTER_1 = new SlimefunItemStack(
-            "QP_TRANSMITTER_1", Material.LIME_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transmitter &7I");
+            "QP_TRANSMITTER_1", Material.LIME_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "发射器 &7I");
     public final SlimefunItemStack TRANSMITTER_2 = new SlimefunItemStack(
-            "QP_TRANSMITTER_2", Material.LIME_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transmitter &7II");
+            "QP_TRANSMITTER_2", Material.LIME_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "发射器 &7II");
     public final SlimefunItemStack TRANSMITTER_3 = new SlimefunItemStack(
-            "QP_TRANSMITTER_3", Material.LIME_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transmitter &7III");
+            "QP_TRANSMITTER_3", Material.LIME_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "发射器 &7III");
     public final SlimefunItemStack TRANSMITTER_4 = new SlimefunItemStack(
-            "QP_TRANSMITTER_4", Material.LIME_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transmitter &7IV");
+            "QP_TRANSMITTER_4", Material.LIME_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "发射器 &7IV");
 
     public final SlimefunItemStack RECEIVER_1 = new SlimefunItemStack(
-            "QP_RECEIVER_1", Material.RED_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Receiver &7I");
+            "QP_RECEIVER_1", Material.RED_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "接收器 &7I");
     public final SlimefunItemStack RECEIVER_2 = new SlimefunItemStack(
-            "QP_RECEIVER_2", Material.RED_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Receiver &7II");
+            "QP_RECEIVER_2", Material.RED_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "接收器 &7II");
     public final SlimefunItemStack RECEIVER_3 = new SlimefunItemStack(
-            "QP_RECEIVER_3", Material.RED_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Receiver &7III");
+            "QP_RECEIVER_3", Material.RED_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "接收器 &7III");
     public final SlimefunItemStack RECEIVER_4 = new SlimefunItemStack(
-            "QP_RECEIVER_4", Material.RED_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Receiver &7IV");
+            "QP_RECEIVER_4", Material.RED_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "接收器 &7IV");
 
     public final SlimefunItemStack TRANSCEIVER_1 = new SlimefunItemStack(
-            "QP_TRANSCEIVER_1", Material.WHITE_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transceiver &7I");
+            "QP_TRANSCEIVER_1", Material.WHITE_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "收发器 &7I");
     public final SlimefunItemStack TRANSCEIVER_2 = new SlimefunItemStack(
-            "QP_TRANSCEIVER_2", Material.WHITE_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transceiver &7II");
+            "QP_TRANSCEIVER_2", Material.WHITE_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "收发器 &7II");
     public final SlimefunItemStack TRANSCEIVER_3 = new SlimefunItemStack(
-            "QP_TRANSCEIVER_3", Material.WHITE_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transceiver &7III");
+            "QP_TRANSCEIVER_3", Material.WHITE_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "收发器 &7III");
     public final SlimefunItemStack TRANSCEIVER_4 = new SlimefunItemStack(
-            "QP_TRANSCEIVER_4", Material.WHITE_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transceiver &7IV");
+            "QP_TRANSCEIVER_4", Material.WHITE_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "收发器 &7IV");
 
     public final SlimefunItemStack DIELECTRIC_1 = new SlimefunItemStack(
-            "QP_DIELECTRIC_1", Material.LIGHT_BLUE_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Dielectric &7I");
+            "QP_DIELECTRIC_1", Material.LIGHT_BLUE_STAINED_GLASS_PANE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "绝缘体 &7I");
     public final SlimefunItemStack DIELECTRIC_2 = new SlimefunItemStack(
-            "QP_DIELECTRIC_2", Material.LIGHT_BLUE_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Dielectric &7II");
+            "QP_DIELECTRIC_2", Material.LIGHT_BLUE_STAINED_GLASS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "绝缘体 &7II");
     public final SlimefunItemStack DIELECTRIC_3 = new SlimefunItemStack(
-            "QP_DIELECTRIC_3", Material.LIGHT_BLUE_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Dielectric &7III");
+            "QP_DIELECTRIC_3", Material.LIGHT_BLUE_CONCRETE_POWDER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "绝缘体 &7III");
     public final SlimefunItemStack DIELECTRIC_4 = new SlimefunItemStack(
-            "QP_DIELECTRIC_4", Material.LIGHT_BLUE_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Dielectric &7IV");
+            "QP_DIELECTRIC_4", Material.LIGHT_BLUE_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "绝缘体 &7IV");
 
     public final SlimefunItemStack TRANSFORMER_COIL_1 = new SlimefunItemStack(
-            "QP_TRANSFORMER_COIL_1", Material.GREEN_GLAZED_TERRACOTTA, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transformer Coil &7I");
+            "QP_TRANSFORMER_COIL_1", Material.GREEN_GLAZED_TERRACOTTA, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "变压线圈 &7I");
     public final SlimefunItemStack TRANSFORMER_COIL_2 = new SlimefunItemStack(
-            "QP_TRANSFORMER_COIL_2", Material.YELLOW_GLAZED_TERRACOTTA, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transformer Coil &7II");
+            "QP_TRANSFORMER_COIL_2", Material.YELLOW_GLAZED_TERRACOTTA, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "变压线圈 &7II");
     public final SlimefunItemStack TRANSFORMER_COIL_3 = new SlimefunItemStack(
-            "QP_TRANSFORMER_COIL_3", Material.RED_GLAZED_TERRACOTTA, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Transformer Coil &7III");
+            "QP_TRANSFORMER_COIL_3", Material.RED_GLAZED_TERRACOTTA, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "变压线圈 &7III");
 
     public final SlimefunItemStack ENERGY_CONCENTRATION_ELEMENT_1 = new SlimefunItemStack(
-            "QP_ENERGY_CONCENTRATION_ELEMENT_1", Material.PEARLESCENT_FROGLIGHT, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Energy Concentration Element &7I");
+            "QP_ENERGY_CONCENTRATION_ELEMENT_1", Material.PEARLESCENT_FROGLIGHT, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "能量汇聚元素 &7I");
     public final SlimefunItemStack ENERGY_CONCENTRATION_ELEMENT_2 = new SlimefunItemStack(
-            "QP_ENERGY_CONCENTRATION_ELEMENT_2", Material.OCHRE_FROGLIGHT, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Energy Concentration Element &7II");
+            "QP_ENERGY_CONCENTRATION_ELEMENT_2", Material.OCHRE_FROGLIGHT, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "能量汇聚元素 &7II");
     public final SlimefunItemStack ENERGY_CONCENTRATION_ELEMENT_3 = new SlimefunItemStack(
-            "QP_ENERGY_CONCENTRATION_ELEMENT_3", Material.VERDANT_FROGLIGHT, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Energy Concentration Element &7III");
+            "QP_ENERGY_CONCENTRATION_ELEMENT_3", Material.VERDANT_FROGLIGHT, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "能量汇聚元素 &7III");
 
     public final SlimefunItemStack TURRET_BASE = new SlimefunItemStack(
-            "QP_TURRET_BASE", Material.SMOOTH_STONE_SLAB, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Turret Base");
+            "QP_TURRET_BASE", Material.SMOOTH_STONE_SLAB, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "防御塔基座");
     public final SlimefunItemStack TURRET_BARREL = new SlimefunItemStack(
-            "QP_TURRET_BARREL", Material.GRAY_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Turret Barrel");
+            "QP_TURRET_BARREL", Material.GRAY_CONCRETE, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "防御塔存储");
     public final SlimefunItemStack TURRET_TARGETING_MECHANISM = new SlimefunItemStack(
-            "QP_TURRET_TARGETING_MECHANISM", Material.TRIPWIRE_HOOK, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Turret Targeting Mechanism");
+            "QP_TURRET_TARGETING_MECHANISM", Material.TRIPWIRE_HOOK, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "防御塔瞄准装置");
 
     public final SlimefunItemStack CARBON_STRUCTURE = new SlimefunItemStack(
-            "QP_CARBON_STRUCTURE", Material.COAL_BLOCK, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Carbon Structure");
+            "QP_CARBON_STRUCTURE", Material.COAL_BLOCK, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "碳结构");
 
     public final SlimefunItemStack BLANK_MODULE_CARD = new SlimefunItemStack(
-            "QP_BLANK_MODULE_CARD", Material.BLACK_BANNER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Blank Module Card");
+            "QP_BLANK_MODULE_CARD", Material.BLACK_BANNER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "空白模组卡片");
     public final SlimefunItemStack INFUSED_MODULE_CARD = new SlimefunItemStack(
-            "QP_INFUSED_MODULE_CARD", Material.GRAY_BANNER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Infused Module Card");
+            "QP_INFUSED_MODULE_CARD", Material.GRAY_BANNER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "注入模组卡片");
     public final SlimefunItemStack ENTANGLED_MODULE_CARD = enchant(new SlimefunItemStack(
-            "QP_ENTANGLED_MODULE_CARD", Material.GRAY_BANNER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Entangled Module Card"));
+            "QP_ENTANGLED_MODULE_CARD", Material.GRAY_BANNER, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "量子纠缠模组卡片"));
 
     public final SlimefunItemStack INFUSED_FREQUENCY_CRYSTAL = new SlimefunItemStack(
-            "QP_INFUSED_FREQUENCY_CRYSTAL", Material.PRISMARINE_CRYSTALS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Infused Frequency Crystal");
+            "QP_INFUSED_FREQUENCY_CRYSTAL", Material.PRISMARINE_CRYSTALS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "注入频率水晶");
     public final SlimefunItemStack ENTANGLED_FREQUENCY_CRYSTAL = enchant(new SlimefunItemStack(
-            "QP_ENTANGLED_FREQUENCY_CRYSTAL", Material.PRISMARINE_CRYSTALS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "Entangled Frequency Crystal"));
+            "QP_ENTANGLED_FREQUENCY_CRYSTAL", Material.PRISMARINE_CRYSTALS, Colors.CRAFTING_COMPONENTS.getFormattedColor() + "量子纠缠频率水晶"));
 
     public final SlimefunItemStack PHASE_CRYSTAL_1 = enchant(new SlimefunItemStack(
-            "QP_PHASE_CRYSTAL_1", Material.QUARTZ, "&7Phase Crystal", Lore.phaseChange(1)));
+            "QP_PHASE_CRYSTAL_1", Material.QUARTZ, "&7相位水晶", Lore.phaseChange(1)));
     public final SlimefunItemStack PHASE_CRYSTAL_5 = enchant(new SlimefunItemStack(
-            "QP_PHASE_CRYSTAL_5", Material.QUARTZ, "&7Phase Crystal", Lore.phaseChange(5)));
+            "QP_PHASE_CRYSTAL_5", Material.QUARTZ, "&7相位水晶", Lore.phaseChange(5)));
     public final SlimefunItemStack PHASE_CRYSTAL_15 = enchant(new SlimefunItemStack(
-            "QP_PHASE_CRYSTAL_15", Material.QUARTZ, "&7Phase Crystal", Lore.phaseChange(15)));
+            "QP_PHASE_CRYSTAL_15", Material.QUARTZ, "&7相位水晶", Lore.phaseChange(15)));
     public final SlimefunItemStack PHASE_CRYSTAL_45 = enchant(new SlimefunItemStack(
-            "QP_PHASE_CRYSTAL_45", Material.QUARTZ, "&7Phase Crystal", Lore.phaseChange(45)));
+            "QP_PHASE_CRYSTAL_45", Material.QUARTZ, "&7相位水晶", Lore.phaseChange(45)));
     public final SlimefunItemStack PHASE_CRYSTAL_90 = enchant(new SlimefunItemStack(
-            "QP_PHASE_CRYSTAL_90", Material.QUARTZ, "&7Phase Crystal", Lore.phaseChange(90)));
+            "QP_PHASE_CRYSTAL_90", Material.QUARTZ, "&7相位水晶", Lore.phaseChange(90)));
     public final SlimefunItemStack PHASE_CRYSTAL_180 = enchant(new SlimefunItemStack(
-            "QP_PHASE_CRYSTAL_180", Material.QUARTZ, "&7Phase Crystal", Lore.phaseChange(180)));
+            "QP_PHASE_CRYSTAL_180", Material.QUARTZ, "&7相位水晶", Lore.phaseChange(180)));
 
     private @NotNull SlimefunItemStack enchant(final @NotNull SlimefunItemStack itemStack) {
         itemStack.addUnsafeEnchantment(Enchantment.ARROW_DAMAGE, 1);

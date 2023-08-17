@@ -51,12 +51,11 @@ public class Polariser extends ConnectedBlock implements PowerAnimatedBlock, Pow
     public static final SlimefunItemStack POLARISER = new SlimefunItemStack(
             "QP_POLARISER",
             Material.YELLOW_TERRACOTTA,
-            "&cPolariser",
+            "&c起偏器",
             Lore.create(POLARISER_SETTINGS,
-                    "&7● Increases the phase of quaptic rays",
-                    "&7● The increase in phase depends on the phase crystal",
-                    "&7  that the polariser is holding",
-                    "&7● &eRight Click &7with a crystal to insert"));
+                    "&7● 增加量子光束的相位",
+                    "&7● 增加的相位取决于放入的相位水晶",
+                    "&7● &7手持水晶&e右键点击&7以放入"));
 
     private static final Vector MAIN_INPUT_LOCATION = new Vector(0.0F, 0.0F, -0.45F);
     private static final Vector OUTPUT_LOCATION = new Vector(0.0F, 0.0F, 0.45);

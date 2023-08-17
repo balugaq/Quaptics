@@ -49,11 +49,11 @@ public class EntanglementContainer extends ConnectedBlock implements ItemHolderB
     public static final SlimefunItemStack ENTANGLEMENT_CONTAINER = new SlimefunItemStack(
             "QP_ENTANGLEMENT_CONTAINER",
             Material.CYAN_CONCRETE,
-            "&6Entanglement Container",
+            "&6量子纠缠容器",
             Lore.create(ENTANGLEMENT_CONTAINER_SETTINGS,
                     Lore.multiblock(),
-                    "&7● Entangles items",
-                    "&7● &eRight Click &7with an item to start the entanglement process"));
+                    "&7● 量子纠缠物品",
+                    "&7● 手持物品&e右键点击&7进行量子纠缠"));
 
     private static final Vector MAGNET_1_LOCATION = new Vector(3, 0, 0);
     private static final Vector MAGNET_2_LOCATION = new Vector(-3, 0, 0);

@@ -57,20 +57,20 @@ public class DiffractionGrating extends ConnectedBlock implements PowerAnimatedB
     public static final SlimefunItemStack DIFFRACTION_GRATING_1 = new SlimefunItemStack(
             "QP_DIFFRACTION_GRATING_1",
             Material.YELLOW_TERRACOTTA,
-            "&cDiffraction Grating &4I",
+            "&c衍射光栅 &4I",
             Lore.create(DIFFRACTION_GRATING_1_SETTINGS,
-                    "&7● Increases the frequency of quaptic rays",
-                    "&7● The closer the auxiliary input to the target phase, the",
-                    "&7  greater the increase in frequency"));
+                    "&7● 增加量子光束的频率",
+                    "&7● 辅助输入越接近目标相位，",
+                    "&7  增加的频率就越大"));
 
     public static final SlimefunItemStack DIFFRACTION_GRATING_2 = new SlimefunItemStack(
             "QP_DIFFRACTION_GRATING_2",
             Material.YELLOW_TERRACOTTA,
-            "&cDiffraction Grating &4II",
+            "&c衍射光栅 &4II",
             Lore.create(DIFFRACTION_GRATING_2_SETTINGS,
-                    "&7● Increases the frequency of quaptic rays",
-                    "&7● The closer the auxiliary input to the target phase, the",
-                    "&7  greater the increase in frequency"));
+                    "&7● 增加量子光束的频率",
+                    "&7● 辅助输入越接近目标相位，",
+                    "&7  增加的频率就越大"));
 
     private final Vector mainPointLocation = new Vector(0, 0, -0.5);
     private final Vector auxiliaryPointLocation = new Vector(0, 0.4, 0);

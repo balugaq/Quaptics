@@ -25,10 +25,10 @@ public class TargetingWand extends SlimefunItem {
     public static final SlimefunItemStack TARGETING_WAND = new SlimefunItemStack(
             "QP_TARGETING_WAND",
             Material.BLAZE_ROD,
-            "&bTargeting Wand",
-            "&7● &eRight Click &7to select a source",
-            "&7● &eRight Click &7again to create a link",
-            "&7● &eShift Right Click &7to remove a link");
+            "&b校准棒",
+            "&7● &e右键点击&7选择起点",
+            "&7● &7再次&e右键点击&7以创建连接",
+            "&7● &e潜行+右键点击&7以移除连接");
 
     private static final float MIN_POINT_SEPARATION = 0.0001F;
 

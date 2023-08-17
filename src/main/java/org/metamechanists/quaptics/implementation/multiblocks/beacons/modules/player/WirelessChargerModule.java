@@ -40,10 +40,10 @@ public class WirelessChargerModule extends BeaconModule implements PlayerModule 
     public static final SlimefunItemStack WIRELESS_CHARGER_MODULE = getBanner(new SlimefunItemStack(
             "QP_WIRELESS_CHARGER_MODULE",
             Material.ORANGE_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Wireless Charger Module",
+            Colors.BEACONS.getFormattedColor() + "无线充能模组",
             Lore.create(WIRELESS_CHARGER_MODULE_SETTINGS,
-                    "&7● Wirelessly charges held items",
-                    "&7● The more power the beacon has, the higher the charge rate")));
+                    "&7● 无线充能手持物品",
+                    "&7● 信标能量越多，充能效率越高")));
 
     public WirelessChargerModule(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {
         super(itemGroup, item, recipeType, recipe, settings);

@@ -65,11 +65,11 @@ public class ReactorController extends ConnectedBlock implements ComplexMultiblo
     public static final SlimefunItemStack REACTOR_CONTROLLER = new SlimefunItemStack(
             "QP_REACTOR_CONTROLLER",
             Material.CYAN_CONCRETE,
-            "&6Reactor Controller",
+            "&6反应堆控制器",
             Lore.create(REACTOR_CONTROLLER_SETTINGS,
                     Lore.multiblock(),
-                    "&7● Generates more power than you put in",
-                    "&7● Takes some time to reach maximum efficiency"));
+                    "&7● 生产比输入更多的能量",
+                    "&7● 需要一定时间来达到最大效率"));
 
     private static final double MAX_ANIMATION_STEP = 0.2F;
 

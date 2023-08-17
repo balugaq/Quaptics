@@ -67,21 +67,21 @@ public class Repeater extends ConnectedBlock implements PowerAnimatedBlock, Powe
     public static final SlimefunItemStack REPEATER_1 = new SlimefunItemStack(
             "QP_REPEATER_1",
             Material.RED_STAINED_GLASS,
-            "&cRepeater &4I",
+            "&c中继器 &4I",
             Lore.create(REPEATER_1_SETTINGS,
-                    "&7● Increases the frequency of a quaptic ray"));
+                    "&7● 增加量子光束的频率"));
     public static final SlimefunItemStack REPEATER_2 = new SlimefunItemStack(
             "QP_REPEATER_2",
             Material.RED_STAINED_GLASS,
-            "&cRepeater &4II",
+            "&c中继器 &4II",
             Lore.create(REPEATER_2_SETTINGS,
-                    "&7● Increases the frequency of a quaptic ray"));
+                    "&7● 增加量子光束的频率"));
     public static final SlimefunItemStack REPEATER_3 = new SlimefunItemStack(
             "QP_REPEATER_3",
             Material.RED_STAINED_GLASS,
-            "&cRepeater &4III",
+            "&c中继器 &4III",
             Lore.create(REPEATER_3_SETTINGS,
-                    "&7● Increases the frequency of a quaptic ray"));
+                    "&7● 增加量子光束的频率"));
 
     private final Vector inputPointLocation = new Vector(0.0F, 0.0F, -getConnectionRadius());
     private final Vector outputPointLocation = new Vector(0.0F, 0.0F, getConnectionRadius());

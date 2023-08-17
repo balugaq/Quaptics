@@ -59,17 +59,17 @@ public class DataStripper extends ConnectedBlock implements InfoPanelBlock, Item
     public static final SlimefunItemStack DATA_STRIPPER_1 = new SlimefunItemStack(
             "QP_DATA_STRIPPER_1",
             Material.DEEPSLATE_BRICK_SLAB,
-            "&7Data Stripper &fI",
+            "&7数据清除器 &fI",
             Lore.create(DATA_STRIPPER_1_SETTINGS,
-                    "&7● Converts Slimefun heads into regular placeable heads",
-                    "&7● &eRight Click &7with an item to insert"));
+                    "&7● 将粘液科技头颅转换为普通头颅",
+                    "&7● 使用头颅&e右键点击&7以清除数据"));
     public static final SlimefunItemStack DATA_STRIPPER_2 = new SlimefunItemStack(
             "QP_DATA_STRIPPER_2",
             Material.DEEPSLATE_BRICK_SLAB,
-            "&7Data Stripper &fII",
+            "&7数据清除器 &fII",
             Lore.create(DATA_STRIPPER_2_SETTINGS,
-                    "&7● Converts Slimefun heads into regular placeable heads",
-                    "&7● &eRight Click &7with an item to insert"));
+                    "&7● 将粘液科技头颅转换为普通头颅",
+                    "&7● 使用头颅&e右键点击&7以清除数据"));
 
     private static final double MAX_PROGRESS_DIFFERENCE = 0.00001;
 

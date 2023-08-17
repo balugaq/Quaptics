@@ -27,7 +27,7 @@ public class BeaconComputer extends QuapticBlock {
     public static final SlimefunItemStack BEACON_COMPUTER = new SlimefunItemStack(
             "QP_BEACON_COMPUTER",
             Material.LIGHT_BLUE_STAINED_GLASS,
-            "&dBeacon Computer",
+            "&d信标计算机",
             Lore.create(BEACON_COMPUTER_SETTINGS,
                     Lore.multiblockComponent()));
 

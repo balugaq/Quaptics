@@ -68,27 +68,27 @@ public class Capacitor extends ConnectedBlock implements InfoPanelBlock, PowerLo
     public static final SlimefunItemStack CAPACITOR_1 = new SlimefunItemStack(
             "QP_CAPACITOR_1",
             Material.LIGHT_BLUE_CONCRETE,
-            "&9Capacitor &8I",
+            "&9电容 &8I",
             Lore.create(CAPACITOR_1_SETTINGS,
-                    "&7● Stores charge"));
+                    "&7● 存储能量"));
     public static final SlimefunItemStack CAPACITOR_2 = new SlimefunItemStack(
             "QP_CAPACITOR_2",
             Material.LIGHT_BLUE_CONCRETE,
-            "&9Capacitor &8II",
+            "&9电容 &8II",
             Lore.create(CAPACITOR_2_SETTINGS,
-                    "&7● Stores charge"));
+                    "&7● 存储能量"));
     public static final SlimefunItemStack CAPACITOR_3 = new SlimefunItemStack(
             "QP_CAPACITOR_3",
             Material.LIGHT_BLUE_CONCRETE,
-            "&9Capacitor &8III",
+            "&9电容 &8III",
             Lore.create(CAPACITOR_3_SETTINGS,
-                    "&7● Stores charge"));
+                    "&7● 存储能量"));
     public static final SlimefunItemStack CAPACITOR_4 = new SlimefunItemStack(
             "QP_CAPACITOR_4",
             Material.LIGHT_BLUE_CONCRETE,
-            "&9Capacitor &8IV",
+            "&9电容 &8IV",
             Lore.create(CAPACITOR_4_SETTINGS,
-                    "&7● Stores charge"));
+                    "&7● 存储能量"));
 
     private static final float MAX_CONCRETE_DISPLAY_SIZE = 0.78F;
 

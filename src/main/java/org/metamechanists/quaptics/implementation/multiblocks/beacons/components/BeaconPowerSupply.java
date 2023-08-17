@@ -41,13 +41,13 @@ public class BeaconPowerSupply extends ConnectedBlock {
     public static final SlimefunItemStack BEACON_POWER_SUPPLY_1 = new SlimefunItemStack(
             "QP_BEACON_POWER_SUPPLY_1",
             Material.GRAY_CONCRETE,
-            "&dBeacon Power Supply &5I",
+            "&d信标电源 &5I",
             Lore.create(BEACON_POWER_SUPPLY_1_SETTINGS,
                     Lore.multiblockComponent()));
     public static final SlimefunItemStack BEACON_POWER_SUPPLY_2 = new SlimefunItemStack(
             "QP_BEACON_POWER_SUPPLY_2",
             Material.GRAY_CONCRETE,
-            "&dBeacon Power Supply &5II",
+            "&d信标电源 &5II",
             Lore.create(BEACON_POWER_SUPPLY_2_SETTINGS,
                     Lore.multiblockComponent()));
 

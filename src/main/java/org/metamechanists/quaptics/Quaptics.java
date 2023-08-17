@@ -3,6 +3,7 @@ package org.metamechanists.quaptics;
 import co.aikar.commands.PaperCommandManager;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import lombok.Getter;
+import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
@@ -20,6 +21,8 @@ import org.metamechanists.quaptics.panels.info.implementation.PointInfoPanelList
 import org.metamechanists.quaptics.storage.CacheGarbageCollector;
 import org.metamechanists.quaptics.storage.QuapticStorage;
 import org.metamechanists.quaptics.storage.QuapticTicker;
+
+import java.util.logging.Level;
 
 
 public final class Quaptics extends JavaPlugin implements SlimefunAddon {
@@ -52,6 +55,14 @@ public final class Quaptics extends JavaPlugin implements SlimefunAddon {
     @Override
     public void onEnable() {
         instance = this;
+
+        if (!getServer().getPluginManager().isPluginEnabled("GuizhanLibPlugin")) {
+            getLogger().log(Level.SEVERE, "本插件需要 鬼斩前置库插件(GuizhanLibPlugin) 才能运行!");
+            getLogger().log(Level.SEVERE, "从此处下载: https://50L.cc/gzlib");
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+
         Groups.initialize();
 
         initializeListeners();
@@ -59,6 +70,10 @@ public final class Quaptics extends JavaPlugin implements SlimefunAddon {
         initializeCommands();
 
         new Metrics(this, BSTATS_ID);
+
+        if (getPluginVersion().startsWith("Build")) {
+            GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "Quaptics", "master");
+        }
     }
     @Override
     public void onDisable() {
@@ -71,6 +86,6 @@ public final class Quaptics extends JavaPlugin implements SlimefunAddon {
     }
     @Override
     public @NotNull String getBugTrackerURL() {
-        return "https://github.com/metamechanists/Quaptics/issues";
+        return "https://github.com/SlimefunGuguProject/Quaptics/issues";
     }
 }

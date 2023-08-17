@@ -40,12 +40,12 @@ public class ExperienceModule extends BeaconModule implements PlayerModule, List
     public static final SlimefunItemStack EXPERIENCE_MODULE_1 = getBanner(new SlimefunItemStack(
             "QP_EXPERIENCE_MODULE_1",
             Material.YELLOW_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Experience Module &dI",
+            Colors.BEACONS.getFormattedColor() + "经验模组 &dI",
             Lore.create(EXPERIENCE_MODULE_1_SETTINGS)));
     public static final SlimefunItemStack EXPERIENCE_MODULE_2 = getBanner(new SlimefunItemStack(
             "QP_EXPERIENCE_MODULE_2",
             Material.ORANGE_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Experience Module &dII",
+            Colors.BEACONS.getFormattedColor() + "经验模组 &dII",
             Lore.create(EXPERIENCE_MODULE_2_SETTINGS)));
 
 

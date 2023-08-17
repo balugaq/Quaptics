@@ -30,9 +30,9 @@ public class LaunchpadConfigPanel extends ConfigPanel {
     @Override
     protected ConfigPanelContainer buildPanelContainer(@NotNull final ConnectionGroupId groupId, @NotNull final Location location, final float rotationY) {
         return new ConfigPanelBuilder(groupId, location.clone().add(getOffset()), SIZE, rotationY)
-                .addAttribute("velocityX", "&fVelocity (x)")
-                .addAttribute("velocityY", "&fVelocity (y)")
-                .addAttribute("velocityZ", "&fVelocity (z)")
+                .addAttribute("velocityX", "&fx速度")
+                .addAttribute("velocityY", "&fy速度")
+                .addAttribute("velocityZ", "&fz速度")
                 .build();
     }
 

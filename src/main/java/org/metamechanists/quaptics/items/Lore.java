@@ -29,11 +29,11 @@ public class Lore {
     private final String PERCENTAGE_SUFFIX = " &8%";
     private final String CHARGE_SUFFIX = " &8QEU";
     private final String POWER_SUFFIX = " &8W";
-    private final String RANGE_SUFFIX = " &8blocks";
+    private final String RANGE_SUFFIX = " &8格";
     private final String DAMAGE_SUFFIX = " &8dps";
     private final String FREQUENCY_SUFFIX = " &8Hz";
-    private final String SECONDS_SUFFIX = " &8seconds";
-    private final String MINUTES_SUFFIX = " &8minutes";
+    private final String SECONDS_SUFFIX = " &8秒";
+    private final String MINUTES_SUFFIX = " &8分钟";
     private final String PHASE_SUFFIX = " &8°";
     private final String MULTIBLOCK_SYMBOL = "&3★";
     private final double SLIMEFUN_TICKS_PER_SECOND = 2.0;
@@ -168,76 +168,76 @@ public class Lore {
 
     // Guide
     public String clickToOpen() {
-        return ATTRIBUTE_SYMBOL + "&7Click to open";
+        return ATTRIBUTE_SYMBOL + "&7点击打开";
     }
 
     // Multiblocks
     public String multiblock() {
-        return MULTIBLOCK_SYMBOL + Colors.MULTIBLOCKS.getFormattedColor() + " Multiblock &8(right click with the Multiblock Wand)";
+        return MULTIBLOCK_SYMBOL + Colors.MULTIBLOCKS.getFormattedColor() + " 多方块结构 &8（使用多方块棒右键点击）";
     }
     public String multiblockComponent() {
-        return MULTIBLOCK_SYMBOL + Colors.MULTIBLOCKS.getFormattedColor() + " Multiblock Component";
+        return MULTIBLOCK_SYMBOL + Colors.MULTIBLOCKS.getFormattedColor() + " 多方块部件";
     }
 
     // Misc
     public String maxConnections(final int maxConnections) {
-        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7Max connections: &e" + Objects.toString(maxConnections);
+        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7最大连接数：&e" + Objects.toString(maxConnections);
     }
     public String range(final int range) {
-        return ATTRIBUTE_SYMBOL + RANGE_SYMBOL + "&7Range &e" + Objects.toString(range) + RANGE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + RANGE_SYMBOL + "&7范围：&e" + Objects.toString(range) + RANGE_SUFFIX;
     }
     public String damage(final double damage) {
-        return ATTRIBUTE_SYMBOL + DAMAGE_SYMBOL + "&7Damage &e" + formatOneDp(damage/SLIMEFUN_TICKS_PER_SECOND) + DAMAGE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + DAMAGE_SYMBOL + "&7伤害：&e" + formatOneDp(damage/SLIMEFUN_TICKS_PER_SECOND) + DAMAGE_SUFFIX;
     }
     public String useInterval(final double useInterval) {
-        return ATTRIBUTE_SYMBOL + SPEED_SYMBOL + "&7Use Interval &e" + formatOneDp(useInterval) + SECONDS_SUFFIX;
+        return ATTRIBUTE_SYMBOL + SPEED_SYMBOL + "&7使用间隔：&e" + formatOneDp(useInterval) + SECONDS_SUFFIX;
     }
     public String timePerItem(final double timePerItem) {
-        return ATTRIBUTE_SYMBOL + SPEED_SYMBOL + "&7Time per item &e" + formatOneDp(timePerItem) + SECONDS_SUFFIX;
+        return ATTRIBUTE_SYMBOL + SPEED_SYMBOL + "&7每个物品所需时间：&e" + formatOneDp(timePerItem) + SECONDS_SUFFIX;
     }
     public String timeToMaxEfficiency(final double timeToMaxEfficiency) {
-        return ATTRIBUTE_SYMBOL + SPEED_SYMBOL + "&7Time to max efficiency &e" + formatZeroDp(timeToMaxEfficiency) + MINUTES_SUFFIX;
+        return ATTRIBUTE_SYMBOL + SPEED_SYMBOL + "&7达到最大效率所需时间：&e" + formatZeroDp(timeToMaxEfficiency) + MINUTES_SUFFIX;
     }
     public String luckLevel(final int luckLevel) {
-        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7Luck Level &e" + formatZeroDp(luckLevel);
+        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7幸运等级：&e" + formatZeroDp(luckLevel);
     }
     public String fireResistanceLevel(final int fireResistanceLevel) {
-        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7Fire Resistance Level &e" + formatZeroDp(fireResistanceLevel);
+        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7火焰抗性等级：&e" + formatZeroDp(fireResistanceLevel);
     }
     public String experienceMultiplier(final double experienceMultiplier) {
-        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7Experience Multiplier &e" + formatZeroDp(experienceMultiplier) + "x";
+        return ATTRIBUTE_SYMBOL + COUNT_SYMBOL + "&7经验乘数：&e" + formatZeroDp(experienceMultiplier) + "x";
     }
 
     // Power
     public String powerInfoPanel(final double power) {
-        return POWER_SYMBOL + "&7Power &e" + formatTwoDp(power) + POWER_SUFFIX;
+        return POWER_SYMBOL + "&7能量：&e" + formatTwoDp(power) + POWER_SUFFIX;
     }
     public String minPower(final double minPower) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Operating Power &e" + formatZeroDp(minPower) + "+" + POWER_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7运行所需能量：&e" + formatZeroDp(minPower) + "+" + POWER_SUFFIX;
     }
     public String powerOutput(final double powerOutput) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Power Output &e" + formatZeroDp(powerOutput) + POWER_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7能量输出：&e" + formatZeroDp(powerOutput) + POWER_SUFFIX;
     }
     public String powerThreshold(final double powerThreshold) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Power Threshold &e" + formatZeroDp(powerThreshold) + POWER_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7能量阈值：&e" + formatZeroDp(powerThreshold) + POWER_SUFFIX;
     }
     public String maxPowerOutput(final double maxPowerOutput) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Max Power Output &e" + formatZeroDp(maxPowerOutput) + POWER_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7最大能量输出：&e" + formatZeroDp(maxPowerOutput) + POWER_SUFFIX;
     }
     public String operatingPower(final double minPower, final double maxPower) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Operating Power &e" + formatZeroDp(minPower) + " &7- &e" + formatZeroDp(maxPower) + POWER_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7可运行能量范围：&e" + formatZeroDp(minPower) + " &7- &e" + formatZeroDp(maxPower) + POWER_SUFFIX;
     }
     public String powerLoss(final double powerLoss) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Power Loss &e" + formatZeroDp(powerLoss*100) + PERCENTAGE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7能量流失：&e" + formatZeroDp(powerLoss*100) + PERCENTAGE_SUFFIX;
     }
     public String powerMultiplier(final double powerMultiplier) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Power Multiplier &e" + formatZeroDp(powerMultiplier*100) + PERCENTAGE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7能量乘数：&e" + formatZeroDp(powerMultiplier*100) + PERCENTAGE_SUFFIX;
     }
     public String powerOutput(final double outputPower, final double maxOutputPower) {
         return (outputPower >= maxOutputPower ? "&a" : "&6") + formatZeroDp(outputPower) + "&7 / " + "&a" + formatZeroDp(maxOutputPower);
     }
     public String powerEfficiency(final double powerEfficiency) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Power Efficiency &e" + formatTwoDp(powerEfficiency) + POWER_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7能量效率：&e" + formatTwoDp(powerEfficiency) + POWER_SUFFIX;
     }
 
     // Charge
@@ -248,37 +248,37 @@ public class Lore {
         return "&7" + formatZeroDp(charge) + " &8/ &7" + formatZeroDp(capacity) + CHARGE_SUFFIX;
     }
     public String chargePerUse(final double usage) {
-        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7Charge per use &e" + formatZeroDp(usage) + CHARGE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + POWER_SYMBOL + "&7每次使用消耗：&e" + formatZeroDp(usage) + CHARGE_SUFFIX;
     }
     public String capacity(final double capacity) {
-        return ATTRIBUTE_SYMBOL + CHARGE_SYMBOL + "&7Capacity &e" + formatZeroDp(capacity) + CHARGE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + CHARGE_SYMBOL + "&7容量：&e" + formatZeroDp(capacity) + CHARGE_SUFFIX;
     }
 
     // Frequency
     public String frequencyInfoPanel(final double frequency) {
-        return FREQUENCY_SYMBOL + "&7Frequency &e" + formatTwoDp(frequency) + FREQUENCY_SUFFIX;
+        return FREQUENCY_SYMBOL + "&7频率：&e" + formatTwoDp(frequency) + FREQUENCY_SUFFIX;
     }
     public String operatingFrequency(final double minFrequency, final double maxFrequency) {
-        return ATTRIBUTE_SYMBOL + FREQUENCY_SYMBOL + "&7Operating Frequency &e" + formatZeroDp(minFrequency)
+        return ATTRIBUTE_SYMBOL + FREQUENCY_SYMBOL + "&7运行频率：&e" + formatZeroDp(minFrequency)
                 + (maxFrequency == 0 ? "+" : " &7- &e" + formatZeroDp(maxFrequency))
                 + FREQUENCY_SUFFIX;
     }
     public String frequencyStep(final double frequencyStep) {
-        return ATTRIBUTE_SYMBOL + FREQUENCY_SYMBOL + "&7Frequency &e+" + formatOneDp(frequencyStep) + FREQUENCY_SUFFIX;
+        return ATTRIBUTE_SYMBOL + FREQUENCY_SYMBOL + "&7频率：&e+" + formatOneDp(frequencyStep) + FREQUENCY_SUFFIX;
     }
     public String frequencyMultiplier(final double frequencyMultiplier) {
-        return ATTRIBUTE_SYMBOL + FREQUENCY_SYMBOL + "&7Frequency &ex" + formatOneDp(frequencyMultiplier);
+        return ATTRIBUTE_SYMBOL + FREQUENCY_SYMBOL + "&7频率：&ex" + formatOneDp(frequencyMultiplier);
     }
 
     // Phase
     public String phaseInfoPanel(final int phase) {
-        return PHASE_SYMBOL + "&7Phase &e" + Objects.toString(phase) + PHASE_SUFFIX;
+        return PHASE_SYMBOL + "&7相位：&e" + Objects.toString(phase) + PHASE_SUFFIX;
     }
     public String targetPhase(final int targetPhase) {
-        return ATTRIBUTE_SYMBOL + PHASE_SYMBOL + "&7Target Phase &e" + Objects.toString(targetPhase) + PHASE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + PHASE_SYMBOL + "&7目标相位：&e" + Objects.toString(targetPhase) + PHASE_SUFFIX;
     }
     public String phaseChange(final int phaseChange) {
-        return ATTRIBUTE_SYMBOL + PHASE_SYMBOL + "&7Phase Change &e" + Objects.toString(phaseChange) + PHASE_SUFFIX;
+        return ATTRIBUTE_SYMBOL + PHASE_SYMBOL + "&7相位更改：&e" + Objects.toString(phaseChange) + PHASE_SUFFIX;
     }
 
     // Bar
@@ -311,7 +311,8 @@ public class Lore {
         return progressBar(secondsSinceStarted, maxSeconds, "&6", "&8", "&a");
     }
     public String chargeBar(final double charge, final double capacity) {
-        return ATTRIBUTE_SYMBOL + CHARGE_SYMBOL + "&7Charge " + progressBar(charge, capacity, Colors.CHARGE.getFormattedColor(), "&8", Colors.CHARGE.getFormattedColor());
+        return ATTRIBUTE_SYMBOL + CHARGE_SYMBOL + "&7能量：" + progressBar(charge, capacity,
+            Colors.CHARGE.getFormattedColor(), "&8", Colors.CHARGE.getFormattedColor());
     }
     public String chargeBarRaw(final double charge, final double capacity) {
         return progressBar(charge, capacity, Colors.CHARGE.getFormattedColor(), "&8", Colors.CHARGE.getFormattedColor());

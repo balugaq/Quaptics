@@ -1,40 +1,40 @@
-command.invalid-argument-count: "&cInvalid argument count."
-command.charge.cannot-be-charged: "&cThis item cannot be charged."
-command.charge.not-an-integer: "&cThe amount to charge must be an integer."
+command.invalid-argument-count: "&c无效参数。"
+command.charge.cannot-be-charged: "&c该物品无法进行充能。"
+command.charge.not-an-integer: "&c充能必须为整数。"
 
-targeting-wand.different-worlds: "&cSource and target cannot be in different worlds."
-targeting-wand.too-far: "&cSource and target points are too far apart."
-targeting-wand.same-connection-point: "&cSource and target cannot be the same connection point."
-targeting-wand.same-connection-group: "&cSource and target cannot be from the same block."
-targeting-wand.no-source-selected: "&cNo source selected."
-targeting-wand.source-must-be-output: "&cThe source must be an output point."
-targeting-wand.target-must-be-input: "&cYou can only link to an output point."
+targeting-wand.different-worlds: "&c起点与终点必须在同一世界中。"
+targeting-wand.too-far: "&c起点与终点距离太远。"
+targeting-wand.same-connection-point: "&c起点与终点不能是相同的接口。"
+targeting-wand.same-connection-group: "&c起点与终点不能属于同一个方块。"
+targeting-wand.no-source-selected: "&c没有选择起点。"
+targeting-wand.source-must-be-output: "&c起点必须是一个输出口。"
+targeting-wand.target-must-be-input: "&c你只能连接到一个输入口。"
 
-multiblock-clicker.not-connected-to-multiblock: "&cNot connected to a multiblock. Make sure the multiblock clicker is facing the block you'd usually click to use the multiblock."
-multiblock-clicker.not-powered: "&cYou must power the multiblock clicker before you can enable it."
+multiblock-clicker.not-connected-to-multiblock: "&c未连接到多方块结构。确保多方块结构点击器指向你使用多方块结构时所点击的方块。"
+multiblock-clicker.not-powered: "&c启用多方块结构点击器之前，你必须进行充能。"
 
-multiblock.block-name: "&7Block: &3{1}"
-multiblock.valid: "&aMultiblock constructed correctly."
+multiblock.block-name: "&7方块：&3{1}"
+multiblock.valid: "&a已成功建造多方块结构。"
 
-infuser.cannot-be-infused: "&cThis item cannot be infused."
-infuser.pillars-not-powered: "&cYou must power all pillars of the infuser before infusing an item."
+infuser.cannot-be-infused: "&c该物品无法被注入。"
+infuser.pillars-not-powered: "&c你必须充能所有的注入柱才能进行注入。"
 
-entangler.cannot-be-entangled: "&cThis item cannot be entangled."
-entangler.magnets-not-powered: "&cYou must power all magnets of the entangler before infusing an item."
+entangler.cannot-be-entangled: "&c该物品无法进行量子纠缠"
+entangler.magnets-not-powered: "&c你必须充能所有磁铁才能进行量子纠缠。"
 
-beacon.not-module: "&cYou can only insert Beacon Modules."
-beacon.duplicate-module: "&cThe beacon already contains this module."
-beacon.incorrect-tier: "&cThis beacon only accepts {1} &cor lower modules."
+beacon.not-module: "&c你只能放入信标模组。"
+beacon.duplicate-module: "&c该信标已装备该模组。"
+beacon.incorrect-tier: "&c该信标只支持 {1} &c或更低等级的模组。"
 
-charger.multiple-items: "&cYou can only insert one item at a time."
-charger.not-chargeable: "&cThis item cannot be charged."
+charger.multiple-items: "&c每次只能放入一个物品。"
+charger.not-chargeable: "&c该物品无法被充能。"
 
-data-stripper.not-slimefun-head: "&cYou can only insert Slimefun heads."
+data-stripper.not-slimefun-head: "&c你只能放入粘液科技头颅。"
 
-crystal-refiner.invalid-item: "&cThis item cannot be refined."
+crystal-refiner.invalid-item: "&c该物品无法被精炼。"
 
-polariser.not-phase-crystal: "&cYou can only insert Phase Crystals."
+polariser.not-phase-crystal: "&c你只能放入相位水晶。"
 
-too-close: "&cToo close to another component."
+too-close: "&c离其他部件太近了。"
 
-load.failed: "Failed to load laser tickers; if this is not your first run, make sure file permissions are set up correctly."
+load.failed: "无法加载激光tickers。如果这不是本插件的首次运行，请确认你已设置正确的文件权限。"

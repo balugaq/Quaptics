@@ -53,10 +53,10 @@ public class ItemProjector extends ConnectedBlock implements ItemHolderBlock, Po
     public static final SlimefunItemStack ITEM_PROJECTOR = new SlimefunItemStack(
             "QP_ITEM_PROJECTOR",
             Material.LIGHT_BLUE_STAINED_GLASS,
-            "&7Item Projector",
+            "&7物品投影装置",
             Lore.create(ITEM_PROJECTOR_SETTINGS,
-                    "&7● Displays a hologram of an inserted item",
-                    "&7● &eRight Click &7with an item to insert"));
+                    "&7● 展示放入物品的全息影像",
+                    "&7● 使用物品&e右键点击&7以放入物品"));
 
     private static final Vector RELATIVE_PANEL_LOCATION = new Vector(0, 0, -0.51);
     public static final double MAX_SIZE = 20;

@@ -49,24 +49,24 @@ public class Transformer extends ConnectedBlock implements PowerAnimatedBlock, P
     public static final SlimefunItemStack TRANSFORMER_1 = new SlimefunItemStack(
             "QP_TRANSFORMER_1",
             Material.BLACK_TERRACOTTA,
-            "&9Transformer &8I",
+            "&9变压器 &8I",
             Lore.create(TRANSFORMER_1_SETTINGS,
-                    "&7● Drops the power of a quaptic ray",
-                    "&7● Excess input power is wasted"));
+                    "&7● 减少量子光束包含的能量",
+                    "&7● 多余的输入会被浪费"));
     public static final SlimefunItemStack TRANSFORMER_2 = new SlimefunItemStack(
             "QP_TRANSFORMER_2",
             Material.BLACK_TERRACOTTA,
-            "&9Transformer &8II",
+            "&9变压器 &8II",
             Lore.create(TRANSFORMER_2_SETTINGS,
-                    "&7● Drops the power of a quaptic ray",
-                    "&7● Excess input power is wasted"));
+                    "&7● 减少量子光束包含的能量",
+                    "&7● 多余的输入会被浪费"));
     public static final SlimefunItemStack TRANSFORMER_3 = new SlimefunItemStack(
             "QP_TRANSFORMER_3",
             Material.BLACK_TERRACOTTA,
-            "&9Transformer &8III",
+            "&9变压器 &8III",
             Lore.create(TRANSFORMER_3_SETTINGS,
-                    "&7● Drops the power of a quaptic ray",
-                    "&7● Excess input power is wasted"));
+                    "&7● 减少量子光束包含的能量",
+                    "&7● 多余的输入会被浪费"));
 
     private final Vector inputPointLocation = new Vector(0.0F, 0.0F, -getConnectionRadius());
     private final Vector outputPointLocation = new Vector(0.0F, 0.0F, getConnectionRadius());

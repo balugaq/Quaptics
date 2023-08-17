@@ -49,11 +49,11 @@ public class BeaconController3 extends BeaconController {
     public static final SlimefunItemStack BEACON_CONTROLLER_3 = new SlimefunItemStack(
             "QP_BEACON_CONTROLLER_3",
             Material.BLUE_CONCRETE,
-            "&dBeacon Controller &5III",
+            "&d信标控制器 &5III",
             Lore.create(BEACON_CONTROLLER_3_SETTINGS,
                     Lore.multiblock(),
-                    "&7● Applies module effects in a range around it",
-                    "&7● &eRight Click &7a module slot with a module to insert"));
+                    "&7● 对周围生物应用模组效果",
+                    "&7● 手持模组&e右键点击&7模组栏位以放入"));
 
     private static final Vector MATRIX_LOCATION = new Vector(0, 2, 0);
     private static final Vector COMPUTER_1_LOCATION = new Vector(1, 2, 0);

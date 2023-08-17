@@ -34,9 +34,9 @@ public class InvincibilityModule extends BeaconModule implements PlayerModule {
     public static final SlimefunItemStack INVINCIBILITY_MODULE = getBanner(new SlimefunItemStack(
             "QP_INVINCIBILITY_MODULE",
             Material.ORANGE_BANNER,
-            Colors.BEACONS.getFormattedColor() + "Invincibility Module",
+            Colors.BEACONS.getFormattedColor() + "无敌模组",
             Lore.create(INVINCIBILITY_MODULE_SETTINGS,
-                    "&7● Makes all players in range invincible")));
+                    "&7● 使范围内的所有玩家无敌")));
 
     public InvincibilityModule(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {
         super(itemGroup, item, recipeType, recipe, settings);

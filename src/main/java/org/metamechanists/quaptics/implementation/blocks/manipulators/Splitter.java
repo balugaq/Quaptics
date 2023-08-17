@@ -56,27 +56,27 @@ public class Splitter extends ConnectedBlock implements PowerAnimatedBlock, Powe
     public static final SlimefunItemStack SPLITTER_1 = new SlimefunItemStack(
             "QP_SPLITTER_1",
             Material.LIGHT_GRAY_STAINED_GLASS,
-            "&9Splitter &8I",
+            "&9分离装置 &8I",
             Lore.create(SPLITTER_1_SETTINGS,
-                    "&7● Splits one quaptic ray into multiple"));
+                    "&7● 将一束量子射线分离成多束"));
     public static final SlimefunItemStack SPLITTER_2 = new SlimefunItemStack(
             "QP_SPLITTER_2",
             Material.LIGHT_GRAY_STAINED_GLASS,
-            "&9Splitter &8II",
+            "&9分离装置 &8II",
             Lore.create(SPLITTER_2_SETTINGS,
-                    "&7● Splits one quaptic ray into multiple"));
+                    "&7● 将一束量子射线分离成多束"));
     public static final SlimefunItemStack SPLITTER_3 = new SlimefunItemStack(
             "QP_SPLITTER_3",
             Material.LIGHT_GRAY_STAINED_GLASS,
-            "&9Splitter &8III",
+            "&9分离装置 &8III",
             Lore.create(SPLITTER_3_SETTINGS,
-                    "&7● Splits one quaptic ray into multiple"));
+                    "&7● 将一束量子射线分离成多束"));
     public static final SlimefunItemStack SPLITTER_4 = new SlimefunItemStack(
             "QP_SPLITTER_4",
             Material.LIGHT_GRAY_STAINED_GLASS,
-            "&9Splitter &8IV",
+            "&9分离装置 &8IV",
             Lore.create(SPLITTER_4_SETTINGS,
-                    "&7● Splits one quaptic ray into multiple"));
+                    "&7● 将一束量子射线分离成多束"));
 
     private static final double CONNECTION_ANGLE = Math.PI * 2/3;
 

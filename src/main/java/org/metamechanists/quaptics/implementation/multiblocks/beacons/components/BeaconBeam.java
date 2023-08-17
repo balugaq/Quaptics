@@ -25,7 +25,7 @@ public class BeaconBeam extends QuapticBlock {
     public static final SlimefunItemStack BEACON_BEAM = new SlimefunItemStack(
             "QP_BEACON_BEAM",
             Material.POLISHED_DEEPSLATE_WALL,
-            "&dBeacon Beam",
+            "&d信标射线",
             Lore.create(BEACON_BEAM_SETTINGS,
                     Lore.multiblockComponent()));
 
