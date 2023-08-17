@@ -3,6 +3,7 @@ package org.metamechanists.quaptics;
 import co.aikar.commands.PaperCommandManager;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import lombok.Getter;
+import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
@@ -69,6 +70,10 @@ public final class Quaptics extends JavaPlugin implements SlimefunAddon {
         initializeCommands();
 
         new Metrics(this, BSTATS_ID);
+
+        if (getPluginVersion().startsWith("Build")) {
+            GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "Quaptics", "master");
+        }
     }
     @Override
     public void onDisable() {
