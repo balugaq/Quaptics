@@ -1,6 +1,5 @@
 package org.metamechanists.quaptics.implementation.blocks.upgraders;
 
-import dev.sefiraat.sefilib.entity.display.DisplayGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
@@ -10,6 +9,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
 import org.jetbrains.annotations.NotNull;
+import org.metamechanists.displaymodellib.sefilib.entity.display.DisplayGroup;
 import org.metamechanists.quaptics.connections.ConnectionGroup;
 import org.metamechanists.quaptics.connections.ConnectionPoint;
 import org.metamechanists.quaptics.connections.ConnectionPointType;
@@ -23,8 +23,8 @@ import org.metamechanists.quaptics.items.Tier;
 import org.metamechanists.quaptics.utils.Utils;
 import org.metamechanists.quaptics.utils.id.complex.ConnectionGroupId;
 import org.metamechanists.quaptics.utils.id.complex.ConnectionPointId;
-import org.metamechanists.quaptics.utils.models.ModelBuilder;
-import org.metamechanists.quaptics.utils.models.components.ModelCuboid;
+import org.metamechanists.displaymodellib.models.ModelBuilder;
+import org.metamechanists.displaymodellib.models.components.ModelCuboid;
 
 import java.util.List;
 import java.util.Optional;
@@ -61,7 +61,9 @@ public class DiffractionGrating extends ConnectedBlock implements PowerAnimatedB
             Lore.create(DIFFRACTION_GRATING_1_SETTINGS,
                     "&7● 增加量子光束的频率",
                     "&7● 辅助输入越接近目标相位，",
-                    "&7  增加的频率就越大"));
+                    "&7  增加的频率就越大。",
+                    "&7● 可运行能量与频率仅适用于主射线，",
+                    "&7● 目标相位仅应用于辅助射线。"));
 
     public static final SlimefunItemStack DIFFRACTION_GRATING_2 = new SlimefunItemStack(
             "QP_DIFFRACTION_GRATING_2",
@@ -70,7 +72,9 @@ public class DiffractionGrating extends ConnectedBlock implements PowerAnimatedB
             Lore.create(DIFFRACTION_GRATING_2_SETTINGS,
                     "&7● 增加量子光束的频率",
                     "&7● 辅助输入越接近目标相位，",
-                    "&7  增加的频率就越大"));
+                    "&7  增加的频率就越大。",
+                    "&7● 可运行能量与频率仅适用于主射线，",
+                    "&7● 目标相位仅应用于辅助射线。"));
 
     private final Vector mainPointLocation = new Vector(0, 0, -0.5);
     private final Vector auxiliaryPointLocation = new Vector(0, 0.4, 0);

@@ -4,12 +4,12 @@ import lombok.Getter;
 import org.bukkit.Location;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.metamechanists.displaymodellib.builders.InteractionBuilder;
 import org.metamechanists.quaptics.beams.FrequencyColor;
 import org.metamechanists.quaptics.beams.beam.DirectBeam;
 import org.metamechanists.quaptics.storage.PersistentDataTraverser;
 import org.metamechanists.quaptics.schedulers.BlockUpdateScheduler;
 import org.metamechanists.quaptics.utils.Utils;
-import org.metamechanists.quaptics.utils.builders.InteractionBuilder;
 import org.metamechanists.quaptics.utils.id.complex.ConnectionPointId;
 import org.metamechanists.quaptics.utils.id.complex.DirectBeamId;
 import org.metamechanists.quaptics.utils.id.complex.LinkId;
@@ -20,8 +20,8 @@ public class Link {
     private static final int ARBITRARILY_LARGE_NUMBER = 9999999;
     private static final double MAX_POWER_CHANGE_PROPORTION = 0.0001;
     private static final double MAX_FREQUENCY_CHANGE_PROPORTION = 0.0001;
-    private static final float MIN_BEAM_SIZE = 0.005F;
-    private static final float MAX_BEAM_SIZE = 0.095F;
+    private static final float MIN_BEAM_SIZE = 0.001F;
+    private static final float MAX_BEAM_SIZE = 0.050F;
     @Getter
     private final LinkId id;
     private final ConnectionPointId outputId;

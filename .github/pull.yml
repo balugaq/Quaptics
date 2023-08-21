@@ -1,7 +1,7 @@
 version: "1"
 rules:
   - base: master
-    upstream: metamechanists:master
+    upstream: LordIdra:master
     mergeMethod: merge
     assignees:
       - ybw0014
