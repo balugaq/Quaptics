@@ -2,6 +2,7 @@ package org.metamechanists.quaptics;
 
 import co.aikar.commands.PaperCommandManager;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import lombok.Getter;
 import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bukkit.plugin.PluginManager;
@@ -54,6 +55,12 @@ public final class Quaptics extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
+        if (!PaperLib.isPaper()) {
+            getLogger().severe("Quaptics requires Paper to run!");
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+
         saveDefaultConfig();
         instance = this;
 
