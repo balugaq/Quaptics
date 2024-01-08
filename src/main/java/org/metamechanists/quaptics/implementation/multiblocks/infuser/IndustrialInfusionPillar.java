@@ -26,7 +26,7 @@ public class IndustrialInfusionPillar extends InfusionPillar {
     public static final SlimefunItemStack INDUSTRIAL_INFUSION_PILLAR = new SlimefunItemStack(
             "QP_INDUSTRIAL_INFUSION_PILLAR",
             Material.BLUE_CONCRETE,
-            "&6Industrial Infusion Pillar",
+            "&6工业级注入柱",
             Lore.create(INDUSTRIAL_INFUSION_PILLAR_SETTINGS,
                     Lore.multiblockComponent()));
 

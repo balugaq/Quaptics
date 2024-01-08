@@ -38,12 +38,12 @@ public class IndustrialEntanglementContainer extends EntanglementContainer {
     public static final SlimefunItemStack INDUSTRIAL_ENTANGLEMENT_CONTAINER = new SlimefunItemStack(
             "QP_INDUSTRIAL_ENTANGLEMENT_CONTAINER",
             Material.CYAN_CONCRETE,
-            "&6Industrial Entanglement Container",
+            "&6工业级量子纠缠容器",
             Lore.create(INDUSTRIAL_ENTANGLEMENT_CONTAINER_SETTINGS,
                     Lore.multiblock(),
-                    "&7● Entangles items",
-                    "&7● Can entangle up to 16 items at once",
-                    "&7● &eRight Click &7with an item to start the entanglement process"));
+                    "&7● 量子纠缠物品",
+                    "&7● 可一次性量子纠缠最多16个物品",
+                    "&7● 手持物品&e右键点击&7进行量子纠缠"));
 
     // I hate this stupid language jesus christ
     private static final Map<Vector, ItemStack> MAGNETS = Map.ofEntries(

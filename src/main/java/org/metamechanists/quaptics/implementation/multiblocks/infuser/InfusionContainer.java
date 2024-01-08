@@ -54,6 +54,7 @@ public class InfusionContainer extends ConnectedBlock implements ItemHolderBlock
             Lore.create(INFUSION_CONTAINER_SETTINGS,
                     Lore.multiblock(),
                     "&7● 注入物品",
+                    "&7● 可一次性注入最多16个物品",
                     "&7● 手持物品&e右键点击&7开始注入"));
 
     private static final Map<Vector, ItemStack> PILLARS = Map.of(

@@ -32,11 +32,11 @@ public class IndustrialCrystalRefiner extends CrystalRefiner {
     public static final SlimefunItemStack INDUSTRIAL_CRYSTAL_REFINER = new SlimefunItemStack(
             "QP_INDUSTRIAL_CRYSTAL_REFINER",
             Material.QUARTZ_BLOCK,
-            "&bIndustrial Crystal Refiner",
+            "&b工业级水晶精炼装置",
             Lore.create(CRYSTAL_REFINER_SETTINGS,
-                    "&7● Refines Phase Crystals",
-                    "&7● Can refine up to 16 items at once",
-                    "&7● &eRight Click &7with an item to start refining"));
+                    "&7● 精炼相位水晶",
+                    "&7● 可一次性精炼最多16个物品",
+                    "&7● &7手持物品&e右键点击&7开始精炼"));
 
     public IndustrialCrystalRefiner(final ItemGroup itemGroup, final SlimefunItemStack item, final RecipeType recipeType, final ItemStack[] recipe, final Settings settings) {
         super(itemGroup, item, recipeType, recipe, settings);

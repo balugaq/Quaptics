@@ -39,12 +39,11 @@ public class IndustrialInfusionContainer extends InfusionContainer {
     public static final SlimefunItemStack INDUSTRIAL_INFUSION_CONTAINER = new SlimefunItemStack(
             "QP_INDUSTRIAL_INFUSION_CONTAINER",
             Material.GRAY_CONCRETE,
-            "&6Industrial Infusion Container",
+            "&6工业级注入容器",
             Lore.create(INDUSTRIAL_INFUSION_CONTAINER_SETTINGS,
                     Lore.multiblock(),
-                    "&7● Infuses items",
-                    "&7● Can infuse up to 16 items at once",
-                    "&7● &eRight Click &7with an item to start infusing"));
+                    "&7● 注入物品",
+                    "&7● 手持物品&e右键点击&7开始注入"));
 
     private static final Map<Vector, ItemStack> PILLARS = Map.of(
             new Vector(3, 0, 0), INDUSTRIAL_INFUSION_PILLAR,

@@ -28,7 +28,7 @@ public class IndustrialEntanglementMagnet extends EntanglementMagnet {
     public static final SlimefunItemStack INDUSTRIAL_ENTANGLEMENT_MAGNET = new SlimefunItemStack(
             "QP_INDUSTRIAL_ENTANGLEMENT_MAGNET",
             Material.MAGENTA_CONCRETE,
-            "&6Industrial Entanglement Magnet",
+            "&6工业级量子纠缠磁铁",
             Lore.create(INDUSTRIAL_ENTANGLEMENT_MAGNET_SETTINGS,
                     Lore.multiblockComponent()));
 
