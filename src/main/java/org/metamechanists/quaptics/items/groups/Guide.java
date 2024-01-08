@@ -181,6 +181,26 @@ public class Guide {
             "&7可以查看是什么，然后放置相应的方块即可。",
             "&7就是这么简单！");
 
+    private final SlimefunItemStack GENERAL_TIPS = new SlimefunItemStack("QP_GUIDE_GENERAL_TIPS", Material.WHITE_CONCRETE,
+            Colors.QUAPTICS.getFormattedColor() + "通用提示",
+            Lore.clickToOpen());
+    private final SlimefunItemStack GENERAL_TIPS_1 = new SlimefunItemStack("QP_GUIDE_GENERAL_TIPS_1", Material.CYAN_CONCRETE,
+            " ",
+            "&7通常来说，做一件事往往有很多方法。",
+            "&7有时候，需要尝试多种解决方案",
+            "&7来寻找到最佳方案。");
+    private final SlimefunItemStack GENERAL_TIPS_2 = new SlimefunItemStack("QP_GUIDE_GENERAL_TIPS_2", Material.CYAN_CONCRETE,
+            " ",
+            "&7变压器比较浪费，",
+            "&7尽量减少使用。",
+            "&7你能只用一个来实现",
+            "&7一系列变压器提供的效果吗？");
+    private final SlimefunItemStack GENERAL_TIPS_3 = new SlimefunItemStack("QP_GUIDE_GENERAL_TIPS_3", Material.CYAN_CONCRETE,
+            " ",
+            "&73级信标较难进行充能。",
+            "&7提示：尝试通过量子光学反应堆",
+            "&7获得最大能量。");
+
 
     public void initialize() {
         final SlimefunAddon addon = Quaptics.getInstance();
@@ -224,6 +244,12 @@ public class Guide {
         new SlimefunItem(Groups.GUIDE, BUILDING_MULTIBLOCKS, RecipeType.NULL, new ItemStack[]{
                 BUILDING_MULTIBLOCKS_1, BUILDING_MULTIBLOCKS_2, BUILDING_MULTIBLOCKS_3,
                 BUILDING_MULTIBLOCKS_4, null, null,
+                null, null, null
+        }).register(addon);
+
+        new SlimefunItem(Groups.GUIDE, GENERAL_TIPS, RecipeType.NULL, new ItemStack[]{
+                GENERAL_TIPS_1, GENERAL_TIPS_2, GENERAL_TIPS_3,
+                null, null, null,
                 null, null, null
         }).register(addon);
     }
